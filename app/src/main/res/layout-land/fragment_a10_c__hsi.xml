@@ -3,7 +3,7 @@
     android:id="@+id/a_10_hsi_containerLinearLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="fr.astazou.cockpitplusplus.fragments.A10C_HSI"
+    tools:context="fr.margouill.cockpitpp.fragments.A10C_HSI"
     tools:ignore="MissingPrefix">
 
     <LinearLayout

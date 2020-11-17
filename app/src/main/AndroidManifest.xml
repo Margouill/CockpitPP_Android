@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="fr.astazou.cockpitplusplus">
+    package="fr.margouill.cockpitpp">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -13,7 +13,7 @@
         android:supportsRtl="true">
 
         <activity
-            android:name="fr.astazou.cockpitplusplus.activities.Menu_Activity"
+            android:name="fr.margouill.cockpitpp.activities.Menu_Activity"
             android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,68 +23,68 @@
         </activity>
 
         <activity
-            android:name="fr.astazou.cockpitplusplus.activities.A10C_Activity"
+            android:name="fr.margouill.cockpitpp.activities.A10C_Activity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:theme="@style/AppThemeM2kC" />
 
         <activity
-            android:name="fr.astazou.cockpitplusplus.activities.A10C_Activity_Tablet"
+            android:name="fr.margouill.cockpitpp.activities.A10C_Activity_Tablet"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:theme="@style/AppThemeM2kC" />
 
         <activity
-            android:name="fr.astazou.cockpitplusplus.activities.M2kC_Activity"
+            android:name="fr.margouill.cockpitpp.activities.M2kC_Activity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:theme="@style/AppThemeM2kC" />
 
         <activity
-            android:name="fr.astazou.cockpitplusplus.activities.M2kC_Activity_Tablet"
+            android:name="fr.margouill.cockpitpp.activities.M2kC_Activity_Tablet"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:theme="@style/AppThemeM2kC" />
 
         <activity
-            android:name="fr.astazou.cockpitplusplus.activities.F15C_Activity"
+            android:name="fr.margouill.cockpitpp.activities.F15C_Activity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:theme="@style/AppTheme" />
 
         <activity
-            android:name="fr.astazou.cockpitplusplus.activities.UH1H_Activity"
+            android:name="fr.margouill.cockpitpp.activities.UH1H_Activity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:theme="@style/AppTheme" />
         <activity
-            android:name="fr.astazou.cockpitplusplus.activities.Ka50_Activity"
+            android:name="fr.margouill.cockpitpp.activities.Ka50_Activity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:theme="@style/AppTheme" />
 
 
         <activity
-            android:name="fr.astazou.cockpitplusplus.activities.AV8BNA_Activity"
-            android:configChanges="keyboardHidden|orientation|screenSize"
-            android:theme="@style/AppTheme" />
-
-        <activity
-            android:name="fr.astazou.cockpitplusplus.activities.MiG21Bis_Activity"
+            android:name="fr.margouill.cockpitpp.activities.AV8BNA_Activity"
             android:configChanges="keyboardHidden|orientation|screenSize"
             android:theme="@style/AppTheme" />
 
         <activity
-            android:name="fr.astazou.cockpitplusplus.activities.Config_Activity"
+            android:name="fr.margouill.cockpitpp.activities.MiG21Bis_Activity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
             android:theme="@style/AppTheme" />
 
-        <activity android:name="fr.astazou.cockpitplusplus.activities.Guide_Activity"
+        <activity
+            android:name="fr.margouill.cockpitpp.activities.Config_Activity"
             android:theme="@style/AppTheme" />
 
-        <activity android:name="fr.astazou.cockpitplusplus.activities.Not_Working_Activity"
+        <activity android:name="fr.margouill.cockpitpp.activities.Guide_Activity"
             android:theme="@style/AppTheme" />
 
-        <activity android:name="fr.astazou.cockpitplusplus.activities.About_Activity"
+        <activity android:name="fr.margouill.cockpitpp.activities.Not_Working_Activity"
             android:theme="@style/AppTheme" />
 
-        <activity android:name="fr.astazou.cockpitplusplus.activities.FAQ_Activity"
+        <activity android:name="fr.margouill.cockpitpp.activities.About_Activity"
+            android:theme="@style/AppTheme" />
+
+        <activity android:name="fr.margouill.cockpitpp.activities.FAQ_Activity"
             android:theme="@style/AppTheme" />
 
         <service
-            android:name="fr.astazou.cockpitplusplus.services.Konector"
+            android:name="fr.margouill.cockpitpp.services.Konector"
             android:enabled="true"
             android:exported="true" />
     </application>

@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:ignore="MissingPrefix"
-    tools:context="fr.astazou.cockpitplusplus.fragments.UH1H_Armament">
+    tools:context="fr.margouill.cockpitpp.fragments.UH1H_Armament">
 
     <ImageView
         android:id="@+id/layout"

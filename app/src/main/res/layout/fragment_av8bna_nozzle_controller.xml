@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:ignore="MissingPrefix"
-    tools:context="fr.astazou.cockpitplusplus.fragments.M2kC_INS">
+    tools:context="fr.margouill.cockpitpp.fragments.M2kC_INS">
 
     <ImageView
         android:id="@+id/layout"
@@ -35,7 +35,7 @@
                 android:layout_height="0dp"
                 android:layout_weight="0.45"/>
 
-            <fr.astazou.cockpitplusplus.custom_views.VerticalSeekBar
+            <fr.margouill.cockpitpp.custom_views.VerticalSeekBar
                 android:id="@+id/blocker"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -58,7 +58,7 @@
                 android:layout_height="0dp"
                 android:layout_weight="0.17"/>
 
-            <fr.astazou.cockpitplusplus.custom_views.VerticalSeekBar
+            <fr.margouill.cockpitpp.custom_views.VerticalSeekBar
                 android:id="@+id/nozzle"
                 android:layout_width="match_parent"
                 android:layout_height="0dp"

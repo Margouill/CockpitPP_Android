@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="fr.astazou.cockpitplusplus.fragments.Ka50_LWR"
+    tools:context="fr.margouill.cockpitpp.fragments.Ka50_LWR"
     tools:ignore="MissingPrefix">
 
     <ImageView

@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:ignore="MissingPrefix"
-    tools:context="fr.astazou.cockpitplusplus.fragments.M2kC_PPA">
+    tools:context="fr.margouill.cockpitpp.fragments.M2kC_PPA">
 
     <ImageView
         android:id="@+id/ppalayout"

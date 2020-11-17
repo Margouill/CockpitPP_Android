@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:weightSum="2"
-    tools:context="fr.astazou.cockpitplusplus.fragments.A10C_VVI_HSI_COMBO"
+    tools:context="fr.margouill.cockpitpp.fragments.A10C_VVI_HSI_COMBO"
     tools:ignore="MissingPrefix">
 
     <LinearLayout

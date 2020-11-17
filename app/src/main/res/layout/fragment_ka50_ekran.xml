@@ -1,0 +1,166 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ka50Background"
+    tools:context="fr.astazou.cockpitplusplus.fragments.Ka50_EKRAN"
+    tools:ignore="MissingPrefix">
+
+    <ImageView
+        android:id="@+id/layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:contentDescription="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/ka50_ekran" />
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            tools:weightSum="9">
+
+            <View
+                android:id="@+id/view41"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.55" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.65"
+                android:orientation="horizontal"
+                tools:weightSum="3">
+
+                <View
+                    android:id="@+id/view43"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.9" />
+
+                <TextView
+                    android:id="@+id/ka50_ekran_tv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.2"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="TextView"
+                    android:textColor="@color/m2kCYellow"
+                    android:textSize="12sp" />
+
+                <View
+                    android:id="@+id/view44"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.9" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view39"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.7" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.57"
+                android:orientation="horizontal"
+                tools:weightSum="2">
+
+                <View
+                    android:id="@+id/view45"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.12" />
+
+                <TextView
+                    android:id="@+id/ka50_ekran_tv2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.865"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="TextView"
+                    android:textColor="@color/m2kCYellow"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/ka50_ekran_tv3"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.89"
+                    android:gravity="center"
+                    android:padding="2dp"
+                    android:text="TextView"
+                    android:textColor="@color/m2kCYellow"
+                    android:textSize="12sp" />
+
+                <View
+                    android:id="@+id/view46"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.12" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view42"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.7" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3.3"
+                android:orientation="horizontal"
+                tools:weightSum="2">
+
+                <View
+                    android:id="@+id/view47"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.15" />
+
+                <TextView
+                    android:id="@+id/ka50_ekran_tv4"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.7"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="EKRAN\nby\nMargouill'"
+                    android:textColor="@color/m2kCYellow" />
+
+                <View
+                    android:id="@+id/view48"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.15" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view50"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

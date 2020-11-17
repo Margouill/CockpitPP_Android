@@ -1,0 +1,44 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/a_10_hsi_containerLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fr.astazou.cockpitplusplus.fragments.A10C_HSI"
+    tools:ignore="MissingPrefix">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="10"
+        android:background="@android:color/black">
+
+        <Button
+            android:id="@+id/a10_hsi_dials_touch_view"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7.5"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.5"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/a10_hsi_heading_set_button"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/circle_button"/>
+
+            <Button
+                android:id="@+id/a10_hsi_course_set_button"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/circle_button"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

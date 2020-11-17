@@ -1,0 +1,1063 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fr.astazou.cockpitplusplus.fragments.Ka50_PUI800"
+    tools:ignore="MissingPrefix">
+
+    <ImageView
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:contentDescription="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/ka50_overhead_bkg" />
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8"
+            android:orientation="vertical"
+            android:weightSum="2"
+            tools:layout_gravity="top">
+
+            <View
+                android:id="@+id/view81"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.78" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    tools:weightSum="13">
+
+                    <View
+                        android:id="@+id/view15"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.7" />
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.5">
+
+                        <ImageButton
+                            android:id="@+id/ka50_overhead_nav_sw_center"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/ka50_yellow_btn_center"
+                            android:scaleType="fitXY"
+                            android:visibility="visible" />
+
+                        <ImageButton
+                            android:id="@+id/ka50_overhead_nav_sw_10"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/ka50_yellow_btn_315"
+                            android:contentDescription="@null"
+                            android:visibility="invisible"
+                            tools:scaleType="fitXY" />
+
+                        <ImageButton
+                            android:id="@+id/ka50_overhead_nav_sw_30"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/ka50_yellow_btn_45"
+                            android:contentDescription="@null"
+                            android:visibility="invisible"
+                            tools:scaleType="fitXY" />
+
+                        <ImageButton
+                            android:id="@+id/ka50_overhead_nav_sw_down"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/ka50_yellow_btn_180"
+                            android:contentDescription="@null"
+                            android:visibility="invisible"
+                            tools:scaleType="fitXY" />
+
+                        <Button
+                            android:id="@+id/ka50_overhead_nav_sw"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null" />
+
+                    </RelativeLayout>
+
+                    <View
+                        android:id="@+id/view16"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.55" />
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.5">
+
+                        <ImageButton
+                            android:id="@+id/ka50_overhead_wiper_sw_center"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/ka50_yellow_btn_center"
+                            android:scaleType="fitXY"
+                            android:visibility="visible" />
+
+                        <ImageButton
+                            android:id="@+id/ka50_overhead_wiper_sw_left"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/ka50_yellow_btn_315"
+                            android:contentDescription="@null"
+                            android:visibility="invisible"
+                            tools:scaleType="fitXY" />
+
+                        <ImageButton
+                            android:id="@+id/ka50_overhead_wiper_sw_right"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/ka50_yellow_btn_45"
+                            android:contentDescription="@null"
+                            android:visibility="invisible"
+                            tools:scaleType="fitXY" />
+
+                        <ImageButton
+                            android:id="@+id/ka50_overhead_wiper_sw_down"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/ka50_yellow_btn_180"
+                            android:contentDescription="@null"
+                            android:visibility="invisible"
+                            tools:scaleType="fitXY" />
+
+                        <Button
+                            android:id="@+id/ka50_overhead_wiper_sw"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null" />
+
+                    </RelativeLayout>
+
+                    <View
+                        android:id="@+id/view18"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.25" />
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="9dp"
+                        android:layout_weight="0.9">
+
+                        <ImageButton
+                            android:id="@+id/ka50_overhead_pitotstatic_sw_up"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/ka50_white_btn_up"
+                            android:scaleType="fitXY"
+                            android:visibility="invisible" />
+
+                        <ImageButton
+                            android:id="@+id/ka50_overhead_pitotstatic_sw_down"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/ka50_white_btn_down"
+                            android:contentDescription="@null"
+                            android:visibility="visible"
+                            tools:scaleType="fitXY" />
+
+                        <Button
+                            android:id="@+id/ka50_overhead_pitotstatic_sw"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null" />
+
+                    </RelativeLayout>
+
+                    <View
+                        android:id="@+id/view21"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.40" />
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="9dp"
+                        android:layout_weight="0.9">
+
+                        <ImageButton
+                            android:id="@+id/ka50_overhead_pitotram_sw_up"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/ka50_white_btn_up"
+                            android:scaleType="fitXY"
+                            android:visibility="invisible" />
+
+                        <ImageButton
+                            android:id="@+id/ka50_overhead_pitotram_sw_down"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/ka50_white_btn_down"
+                            android:contentDescription="@null"
+                            android:visibility="visible"
+                            tools:scaleType="fitXY" />
+
+                        <Button
+                            android:id="@+id/ka50_overhead_pitotram_sw"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null" />
+
+                    </RelativeLayout>
+
+                    <View
+                        android:id="@+id/view22"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.84" />
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="6dp"
+                        android:layout_weight="0.9">
+
+                        <ImageButton
+                            android:id="@+id/ka50_overhead_rotor_sw_up"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/ka50_white_btn_up"
+                            android:scaleType="fitXY"
+                            android:visibility="invisible" />
+
+                        <ImageButton
+                            android:id="@+id/ka50_overhead_rotor_sw_down"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/ka50_white_btn_down"
+                            android:contentDescription="@null"
+                            android:visibility="visible"
+                            tools:scaleType="fitXY" />
+
+                        <Button
+                            android:id="@+id/ka50_overhead_rotor_sw"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null" />
+
+                    </RelativeLayout>
+
+                    <View
+                        android:id="@+id/view36"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.86" />
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="6dp"
+                        android:layout_weight="0.9">
+
+                        <ImageButton
+                            android:id="@+id/ka50_overhead_eng_sw_up"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/ka50_white_btn_up"
+                            android:scaleType="fitXY"
+                            android:visibility="invisible" />
+
+                        <ImageButton
+                            android:id="@+id/ka50_overhead_eng_sw_mid"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/ka50_white_btn_mid"
+                            android:contentDescription="@null"
+                            android:visibility="visible"
+                            tools:scaleType="fitXY" />
+
+                        <ImageButton
+                            android:id="@+id/ka50_overhead_eng_sw_down"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/ka50_white_btn_down"
+                            android:contentDescription="@null"
+                            android:visibility="visible"
+                            tools:scaleType="fitXY" />
+
+                        <Button
+                            android:id="@+id/ka50_overhead_eng_sw"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null" />
+
+                    </RelativeLayout>
+
+                    <View
+                        android:id="@+id/view37"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.77" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view80"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.14" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view29"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.07" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.24"
+            android:orientation="vertical"
+            tools:layout_gravity="top">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="6">
+
+                <TextView
+                    android:id="@+id/ka50_overhead_masterarm_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/ka50_avisos_off"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/master_arm"
+                    android:textColor="@color/av8bnaText"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/ka50_overhead_compdiag_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/ka50_avisos_off"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/comp_ndiag"
+                    android:textColor="@color/av8bnaText"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/ka50_overhead_lhantiice_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/ka50_avisos_off"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/lh_eng_nanti_ice"
+                    android:textColor="@color/av8bnaText"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/ka50_overhead_rhantiice_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/ka50_avisos_off"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/rh_eng_nanti_ice"
+                    android:textColor="@color/av8bnaText"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/ka50_overhead_fwtkpump_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/ka50_avisos_off"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/fwd_tank_npump_on"
+                    android:textColor="@color/av8bnaText"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/ka50_overhead_afttankpump_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/ka50_avisos_off"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/aft_tank_npump_on"
+                    android:textColor="@color/av8bnaText"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:typeface="sans" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.24"
+            android:orientation="vertical"
+            tools:layout_gravity="top">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="6">
+
+                <TextView
+                    android:id="@+id/ka50_overhead_weapontrain_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/ka50_avisos_off"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/weapon_ntraining"
+                    android:textColor="@color/av8bnaText"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/ka50_overhead_compfail_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/ka50_avisos_off"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/comp_nfail"
+                    android:textColor="@color/av8bnaText"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/ka50_overhead_lhdust_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/ka50_avisos_off"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/lh_eng_ndust_prot"
+                    android:textColor="@color/av8bnaText"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/ka50_overhead_rhdust_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/ka50_avisos_off"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/rh_eng_ndust_prot"
+                    android:textColor="@color/av8bnaText"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/ka50_overhead_lhvalve_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/ka50_avisos_off"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/lh_vlv_nclosed"
+                    android:textColor="@color/av8bnaText"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/ka50_overhead_rhvalve_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/ka50_avisos_off"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/rh_vlv_nclosed"
+                    android:textColor="@color/av8bnaText"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:typeface="sans" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.24"
+            android:orientation="vertical"
+            tools:layout_gravity="top">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="6">
+
+                <TextView
+                    android:id="@+id/ka50_overhead_hmsfail_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/ka50_avisos_off"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/hms_nfail"
+                    android:textColor="@color/av8bnaText"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/ka50_overhead_inverter_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/ka50_avisos_off"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/inverter_non"
+                    android:textColor="@color/av8bnaText"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/ka50_overhead_lhpower_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/ka50_avisos_off"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/lh_power_nset_lim"
+                    android:textColor="@color/av8bnaText"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/ka50_overhead_rhpower_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/ka50_avisos_off"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/rh_power_nset_lim"
+                    android:textColor="@color/av8bnaText"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/ka50_overhead_lhouter_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/ka50_avisos_off"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/lh_outer_ntank_pump"
+                    android:textColor="@color/av8bnaText"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/ka50_overhead_rhouter_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/ka50_avisos_off"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/rh_outer_n_tank_pump"
+                    android:textColor="@color/av8bnaText"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:typeface="sans" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.24"
+            android:orientation="vertical"
+            tools:layout_gravity="top">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:weightSum="6">
+
+                <TextView
+                    android:id="@+id/ka50_overhead_hud_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/ka50_avisos_off"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/hud_nnot_rdy"
+                    android:textColor="@color/av8bnaText"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/ka50_overhead_shkvaltv2"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/ka50_avisos_off"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/shkval_nfail"
+                    android:textColor="@color/av8bnaText"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/ka50_overhead_rtrantiice_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/ka50_avisos_off"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/rotor_nanti_ice"
+                    android:textColor="@color/av8bnaText"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/ka50_overhead_heat_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/ka50_avisos_off"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/windshld_nheat_on"
+                    android:textColor="@color/av8bnaText"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/ka50_overhead_lhinner_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/ka50_avisos_off"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/lh_inner_ntank_pump"
+                    android:textColor="@color/av8bnaText"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:typeface="sans" />
+
+                <TextView
+                    android:id="@+id/ka50_overhead_rhinner_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/ka50_avisos_off"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="@string/rh_inner_ntank_pump"
+                    android:textColor="@color/av8bnaText"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:typeface="sans" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view82"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.09" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            tools:weightSum="6">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="4"
+                android:orientation="vertical"
+                tools:weightSum="4">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+
+                    <TextView
+                        android:id="@+id/ka50_overhead_vide_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/ka50_avisos_off"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text=""
+                        android:textColor="@color/av8bnaText"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:typeface="sans" />
+
+                    <TextView
+                        android:id="@+id/ka50_overhead_enrnav_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/ka50_avisos_off"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="@string/enr_nnav_on"
+                        android:textColor="@color/av8bnaText"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:typeface="sans" />
+
+                    <TextView
+                        android:id="@+id/ka50_overhead_acpos_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/ka50_avisos_off"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="@string/ac_pos_ncall_data"
+                        android:textColor="@color/av8bnaText"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:typeface="sans" />
+
+                    <TextView
+                        android:id="@+id/ka50_overhead_xfeed_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/ka50_avisos_off"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="@string/x_feed_nvlv_open"
+                        android:textColor="@color/av8bnaText"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:typeface="sans" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+
+                    <TextView
+                        android:id="@+id/ka50_overhead_ralt_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/ka50_avisos_off"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="@string/r_alt_nhold"
+                        android:textColor="@color/av8bnaText"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:typeface="sans" />
+
+                    <TextView
+                        android:id="@+id/ka50_overhead_enrcours_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/ka50_avisos_off"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="@string/enr_ncourse"
+                        android:textColor="@color/av8bnaText"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:typeface="sans" />
+
+                    <TextView
+                        android:id="@+id/ka50_overhead_weaparm_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/ka50_avisos_off"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="@string/weap_narm"
+                        android:textColor="@color/av8bnaText"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:typeface="sans" />
+
+                    <TextView
+                        android:id="@+id/ka50_overhead_turbo_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/ka50_avisos_off"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="@string/turbo_ngear"
+                        android:textColor="@color/av8bnaText"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:typeface="sans" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+
+                    <TextView
+                        android:id="@+id/ka50_overhead_autohover_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/ka50_avisos_off"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="@string/auto_nhover"
+                        android:textColor="@color/av8bnaText"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:typeface="sans" />
+
+                    <TextView
+                        android:id="@+id/ka50_overhead_nextwp_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/ka50_avisos_off"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="@string/next_nwp"
+                        android:textColor="@color/av8bnaText"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:typeface="sans" />
+
+                    <TextView
+                        android:id="@+id/ka50_overhead_cannon_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/ka50_avisos_off"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="@string/cannon"
+                        android:textColor="@color/av8bnaText"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:typeface="sans" />
+
+                    <TextView
+                        android:id="@+id/ka50_overhead_agboilpress_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/ka50_avisos_off"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="@string/agb_oil_npress"
+                        android:textColor="@color/av8bnaText"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:typeface="sans" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="4">
+
+                    <TextView
+                        android:id="@+id/ka50_overhead_autodescent_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/ka50_avisos_off"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="@string/auto_ndescent"
+                        android:textColor="@color/av8bnaText"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:typeface="sans" />
+
+                    <TextView
+                        android:id="@+id/ka50_overhead_route_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/ka50_avisos_off"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="@string/route_nend"
+                        android:textColor="@color/av8bnaText"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:typeface="sans" />
+
+                    <TextView
+                        android:id="@+id/ka50_overhead_cannon2_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/ka50_avisos_off"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="@string/cannon_n"
+                        android:textColor="@color/av8bnaText"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:typeface="sans" />
+
+                    <TextView
+                        android:id="@+id/ka50_overhead_slhook_tv"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/ka50_avisos_off"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="@string/sl_hook_nopen"
+                        android:textColor="@color/av8bnaText"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:typeface="sans" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:orientation="horizontal"
+                tools:weightSum="1">
+
+                <View
+                    android:id="@+id/view84"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.15" />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.7"
+                    android:background="@drawable/ka_50_overhead_ambient_temp"
+                    android:scaleX="1"
+                    android:scaleY="0.75">
+
+                </RelativeLayout>
+
+                <View
+                    android:id="@+id/view83"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.15" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view57"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.08" />
+
+    </LinearLayout>
+
+</FrameLayout>

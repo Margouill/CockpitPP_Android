@@ -1,0 +1,411 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fr.astazou.cockpitplusplus.fragments.Ka50_PRTz"
+    tools:ignore="MissingPrefix">
+
+    <ImageView
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:contentDescription="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/ka50_prtz_bkg" />
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="3">
+
+        <View
+            android:id="@+id/view67"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.85"
+            android:orientation="horizontal"
+            tools:weightSum="5.05">
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.51" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/ka50_prtz_vehicle_bt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/ka50_prtz_vehicle_on"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/ka50_prtz_vehicles_onp"
+                    android:visibility="visible" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/ka50_prtz_sam_bt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/ka50_prtz_sam_on"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/ka50_prtz_sam_onp"
+                    android:visibility="visible" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/ka50_prtz_other_bt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/ka50_prtz_other_on"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/ka50_prtz_others_onp"
+                    android:visibility="visible" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/ka50_prtz_point_bt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/ka50_prtz_point_on"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/ka50_prtz_point_onp"
+                    android:visibility="visible" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.54" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view66"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.85"
+            android:orientation="horizontal"
+            tools:weightSum="5.14">
+
+            <View
+                android:id="@+id/view74"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.03" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/ka50_prtz_1_bt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/ka50_prtz_1_on"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/ka50_prtz_1_onp"
+                    android:visibility="visible" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/ka50_prtz_2_bt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/ka50_prtz_2_on"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/ka50_prtz_2_onp"
+                    android:visibility="visible" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/ka50_prtz_3_bt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/ka50_prtz_3_on"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/ka50_prtz_3_onp"
+                    android:visibility="visible" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.95">
+
+                <Button
+                    android:id="@+id/ka50_prtz_4_bt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/ka50_prtz_4_on"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/ka50_prtz_4_onp"
+                    android:visibility="visible" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.07">
+
+                <Button
+                    android:id="@+id/ka50_prtz_all_bt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/ka50_prtz_all_on"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/ka50_prtz_to_all_onp"
+                    android:visibility="visible" />
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.05" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view68"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.85"
+            android:orientation="horizontal"
+            tools:weightSum="5.04">
+
+            <View
+                android:id="@+id/view64"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5" />
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/ka50_prtz_empty_bt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/ka50_prtz_empty_on"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/ka50_prtz_empty_onp"
+                    android:visibility="visible" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/ka50_prtz_clear_bt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/ka50_prtz_clear_on"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/ka50_prtz_clear_onp"
+                    android:visibility="visible" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/ka50_prtz_ingress_bt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/ka50_prtz_ingress_on"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/ka50_prtz_ingress_onp"
+                    android:visibility="visible" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/ka50_prtz_send_bt"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/ka50_prtz_send_on"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:src="@drawable/ka50_prtz_send_mem_onp"
+                    android:visibility="visible" />
+
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/view65"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.53" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view69"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.15" />
+
+    </LinearLayout>
+
+</FrameLayout>

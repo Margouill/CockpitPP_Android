@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: com.takisoft.fix:preference-v7:26.1.0.0@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bd0d07e3449e6d91ec053b4922fbb01d/preference-v7-26.1.0.0/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bd0d07e3449e6d91ec053b4922fbb01d/preference-v7-26.1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bd0d07e3449e6d91ec053b4922fbb01d/preference-v7-26.1.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/bd0d07e3449e6d91ec053b4922fbb01d/preference-v7-26.1.0.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.takisoft.fix/preference-v7/26.1.0.0/579edecc8795084232dfe272f4ef41c155b9ab30/preference-v7-26.1.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.takisoft.fix/preference-v7/26.1.0.0/cf4fe5bf6c51ebdaea8752497184a951a9dc1fc5/preference-v7-26.1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

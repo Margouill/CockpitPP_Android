@@ -1,0 +1,192 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fr.astazou.cockpitplusplus.fragments.Ka50_LWR"
+    tools:ignore="MissingPrefix">
+
+    <ImageView
+        android:id="@+id/layout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:contentDescription="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/ka50_lwr_bkg" />
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <View
+            android:id="@+id/view78"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.80"
+            android:orientation="vertical"
+            tools:weightSum="7">
+
+            <View
+                android:id="@+id/view52"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2.05" />
+
+            <ImageView
+                android:id="@+id/ka50_lwr_left"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.2"
+                android:paddingRight="2dp"
+                android:src="@drawable/ka50_lwr_alarm_light_on"
+                android:visibility="visible" />
+
+            <View
+                android:id="@+id/view53"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3.8" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view75"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.12" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            tools:weightSum="7">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.45" />
+
+            <ImageView
+                android:id="@+id/ka50_lwr_top"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.2"
+                android:paddingRight="6dp"
+                android:src="@drawable/ka50_lwr_alarm_light_on"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/ka50_lwr_above"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:src="@drawable/ka50_lwr_above" />
+
+            <ImageView
+                android:id="@+id/ka50_lwr_below"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.9"
+                android:src="@drawable/ka50_lwr_below" />
+
+            <ImageView
+                android:id="@+id/ka50_lwr_bottom"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.2"
+                android:paddingRight="6dp"
+                android:src="@drawable/ka50_lwr_alarm_light_on"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/ka50_lwr_rf"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.9"
+                android:paddingRight="3dp"
+                android:src="@drawable/ka50_lwr_rf" />
+
+            <ImageView
+                android:id="@+id/ka50_lwr_tri"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.97"
+                android:paddingRight="3dp"
+                android:src="@drawable/ka50_lwr_tri" />
+
+            <View
+                android:id="@+id/view76"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.40" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view77"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.12" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.80"
+            android:orientation="vertical"
+            android:weightSum="7">
+
+            <View
+                android:id="@+id/view54"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2.1" />
+
+            <ImageView
+                android:id="@+id/ka50_lwr_right"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.2"
+                android:paddingRight="5dp"
+                android:src="@drawable/ka50_lwr_alarm_light_on"
+                android:visibility="visible" />
+
+            <View
+                android:id="@+id/view55"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.8" />
+
+            <Button
+                android:id="@+id/ka50_lwr_reset_bt"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.4"
+                android:background="@drawable/circle_button_discret" />
+
+            <View
+                android:id="@+id/view56"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.53" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view79"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.07" />
+
+    </LinearLayout>
+
+</FrameLayout>

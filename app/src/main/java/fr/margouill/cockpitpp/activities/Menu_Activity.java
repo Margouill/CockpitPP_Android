@@ -9,6 +9,7 @@ import android.content.SharedPreferences;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.graphics.drawable.ColorDrawable;
+import android.net.Uri;
 import android.os.Build;
 import android.os.Handler;
 import android.os.Bundle;
@@ -18,6 +19,7 @@ import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
@@ -44,6 +46,15 @@ public class Menu_Activity extends Activity {
         //Bind the view
         setContentView(R.layout.activity_menu);
 
+        //Get the version of the app
+        String versionName = "";
+        try {
+            PackageInfo packageInfo = getPackageManager().getPackageInfo(getPackageName(), 0);
+            versionName = packageInfo.versionName;
+        } catch (PackageManager.NameNotFoundException e) {
+            Log.e("",e.getMessage(),e);
+        }
+
         //Bind the buttons from the screen
         Button a10c = (Button) findViewById(R.id.a10c);
         Button av8bna = (Button) findViewById(R.id.av8bna);
@@ -58,6 +69,17 @@ public class Menu_Activity extends Activity {
         Button about = (Button) findViewById(R.id.about);
         Button faq = (Button) findViewById(R.id.faq);
         Button exit = (Button) findViewById(R.id.exit);
+
+        //Bind the Discord button
+        ImageView discord = (ImageView) findViewById(R.id.menuDiscord);
+        discord.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Uri uriUrl = Uri.parse(getString(R.string.discord));
+                Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
+                startActivity(launchBrowser);
+            }
+        });
 
         //Set the actions on the buttons
         av8bna.setOnClickListener(new View.OnClickListener() {
@@ -232,11 +254,7 @@ public class Menu_Activity extends Activity {
         if(version < Float.parseFloat(versionName)) {
             prefs.edit().putFloat(getString(R.string.PREFERENCES_ANDROID_APP_VERSION),Float.parseFloat(versionName)).apply();
             AlertDialog.Builder builder;
-            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                builder = new AlertDialog.Builder(Menu_Activity.this, android.R.style.Theme_Material_Dialog_Alert);
-            } else {
-                builder = new AlertDialog.Builder(Menu_Activity.this);
-            }
+            builder = new AlertDialog.Builder(Menu_Activity.this, android.R.style.Theme_Material_Dialog_Alert);
             builder.setTitle(getString(R.string.app_name))
                     .setMessage(getString(R.string.need_update_lua))
                     .setPositiveButton(R.string.ok, new DialogInterface.OnClickListener() {
@@ -273,11 +291,7 @@ public class Menu_Activity extends Activity {
         final String version = versionName;
         final String changelog = getString(R.string.changelog_5) + "\n" +  getString(R.string.changelog_4) + "\n" +  getString(R.string.changelog_3) + "\n" + getString(R.string.changelog_2) + "\n" + getString(R.string.changelog_1);
         AlertDialog.Builder builder;
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-            builder = new AlertDialog.Builder(this, android.R.style.Theme_Material_Dialog_Alert);
-        } else {
-            builder = new AlertDialog.Builder(this);
-        }
+        builder = new AlertDialog.Builder(this, android.R.style.Theme_Material_Dialog_Alert);
         builder.setTitle(getString(R.string.changelog) + " " + version)
                 .setMessage(changelog)
                 .setPositiveButton(R.string.ok, new DialogInterface.OnClickListener() {

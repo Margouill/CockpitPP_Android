@@ -51,11 +51,7 @@ public class About_Activity extends Module_Activity {
             @Override
             public void onClick(View v) {
                 AlertDialog.Builder builder;
-                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-                    builder = new AlertDialog.Builder(About_Activity.this, android.R.style.Theme_Material_Dialog_Alert);
-                } else {
-                    builder = new AlertDialog.Builder(About_Activity.this);
-                }
+                builder = new AlertDialog.Builder(About_Activity.this, android.R.style.Theme_Material_Dialog_Alert);
                 builder.setTitle(getString(R.string.changelog) + " " + version)
                         .setMessage(changelog)
                         .setPositiveButton(R.string.ok, new DialogInterface.OnClickListener() {
@@ -68,15 +64,5 @@ public class About_Activity extends Module_Activity {
             }
         });
 
-        //Bind the Discord button
-        ImageView discord = (ImageView) findViewById(R.id.discord);
-        discord.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Uri uriUrl = Uri.parse(getString(R.string.discord_contribute));
-                Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
-                startActivity(launchBrowser);
-            }
-        });
     }
 }

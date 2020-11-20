@@ -87,7 +87,8 @@
             android:layout_margin="8dp"
             android:autoLink="web"
             android:clickable="true"
-            android:text="@string/about_thanks"/>
+            android:text="@string/about_thanks"
+            android:focusable="true" />
 
         <TextView
             android:id="@+id/thanks_Huertix"
@@ -96,7 +97,8 @@
             android:layout_margin="8dp"
             android:autoLink="web"
             android:clickable="true"
-            android:text="@string/about_thanks_Huertix"/>
+            android:text="@string/about_thanks_Huertix"
+            android:focusable="true" />
 
         <TextView
             android:id="@+id/thanks_photo"
@@ -105,7 +107,8 @@
             android:layout_margin="8dp"
             android:autoLink="web"
             android:clickable="true"
-            android:text="@string/about_thanks_photo"/>
+            android:text="@string/about_thanks_photo"
+            android:focusable="true" />
 
         <TextView
             android:id="@+id/thanks_font"
@@ -114,7 +117,8 @@
             android:layout_margin="8dp"
             android:autoLink="web"
             android:clickable="true"
-            android:text="@string/about_thanks_font"/>
+            android:text="@string/about_thanks_font"
+            android:focusable="true" />
 
         <TextView
             android:id="@+id/about_contributors"
@@ -123,7 +127,8 @@
             android:layout_margin="8dp"
             android:autoLink="web"
             android:clickable="true"
-            android:text="@string/about_contributors"/>
+            android:text="@string/about_contributors"
+            android:focusable="true" />
 
         <TextView
             android:id="@+id/thanks_github"
@@ -132,9 +137,10 @@
             android:layout_margin="8dp"
             android:autoLink="web"
             android:clickable="true"
-            android:text="@string/about_github"/>
+            android:text="@string/about_github"
+            android:focusable="true" />
 
-        <ImageView
+        <!--<ImageView
             android:id="@+id/discord"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -142,7 +148,7 @@
             android:layout_marginBottom="16dp"
             android:src="@drawable/discord"
             android:contentDescription="@null"/>
-
+        !-->
         <Button
             android:id="@+id/changelog"
             android:layout_width="wrap_content"

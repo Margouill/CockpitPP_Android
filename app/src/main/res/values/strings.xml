@@ -49,16 +49,16 @@
     <string name="guide_intro">How to make DCS communicating with the app?</string>
     <string name="guide_subintro">To communicate by wifi, your Android and your DCS must know the IP address of each other, you will find here the steps to configure everything</string>
     <string name="guide_step1">1) Download the <b>Cockpit++.lua</b></string>
-    <string name="guide_step1dl">from here: <a href="https://github.com/CockpitPP/CockpitPP_lua/archive/master.zip">https://github.com/CockpitPP/CockpitPP_lua/archive/master.zip</a> (link also available in the app\'s description on the Playstore, type \"Cockpit DCS astazou\" in the PlayStore)</string>
+    <string name="guide_step1dl">from here: <a href="https://github.com/Margouill/CockpitPP/blob/main/Cockpitpp.lua">https://github.com/Margouill/CockpitPP/blob/main/Cockpitpp.lua</a></string>
     <string name="guide_step2">2) Go in <u>C:\\Users\\yourUser\\Saved Games\\DCS\\Scripts</u> folder (create if not exist)</string>
     <string name="guide_step3">3) Open the <b>export.lua</b> file (create it if not exist) and add the line:</string>
-    <string name="guide_step3bis"><i>local Cockpitpp=require(\'lfs\');dofile(Cockpitpp.writedir()..\'Scripts/Cockpit++.lua\')</i></string>
-    <string name="guide_step3ter">if you don\'t know how to create the Export.lua file, you can take the one you downloaded with Cockpit++.lua</string>
-    <string name="guide_step4">4) In the same folder, add the file <b>Cockpit++.lua</b>\nNow you should have this:</string>
-    <string name="guide_step5">5) Open the <b>Cockpit++.lua</b> and add the IP address of your Android phone (You will find the Android IP in the Cockpit++ application, in "settings", you must be connected by wifi on the same network than your computer)</string>
+    <string name="guide_step3bis"><i>local Cockpitpp=require(\'lfs\');dofile(Cockpitpp.writedir()..\'Scripts/Cockpitpp.lua\')</i></string>
+    <string name="guide_step3ter">if you don\'t know how to create the Export.lua file, you can take the one you downloaded with Cockpitpp.lua</string>
+    <string name="guide_step4">4) In the same folder, add the file <b>Cockpitpp.lua</b>\nNow you should have this:</string>
+    <string name="guide_step5">5) Open the <b>Cockpitpp.lua</b> and add the IP address of your Android phone (You will find the Android IP in the Cockpit++ application, in "settings", you must be connected by wifi on the same network than your computer)</string>
     <string name="guide_step5Example1">For example, if you Android IP is <b>192.168.0.12</b>, you must write:</string>
     <string name="guide_step5Example2">Of course you can use several Android devices in the same time, just add other Android IP if you want to use Cockpit++ with more than 1 device:</string>
-    <string name="guide_step6">6) In the app, go to Settings, add your computer\'s IP \nYou will get your computer\'s IP by doing:\n - Windows touch + \"R\"\n - typing \"cmd\" and pressing \"enter\"\n - typing \"ipconfig\" in the console\n - get your ipv4 address \nBy default ports are configured even if these seem empty, but you can manage them, just be sure you are using the same ports in you app and <b>Cockpit++.lua</b></string>
+    <string name="guide_step6">6) In the app, go to Settings, add your computer\'s IP \nYou will get your computer\'s IP by doing:\n - Windows touch + \"R\"\n - typing \"cmd\" and pressing \"enter\"\n - typing \"ipconfig\" in the console\n - get your ipv4 address \nBy default ports are configured even if these seem empty, but you can manage them, just be sure you are using the same ports in you app and <b>Cockpitpp.lua</b></string>
     <string name="guide_step7">7) Now <u>start a mission, remove the pause, startup your plane</u> and it should work :)</string>
     <string name="guide_step8">8) Not working? check the previous steps and/or restart the app</string>
     <string name="guide_step9">9) Still not working? Then go in <b><u><i>Not working?</i></u></b> in the app, you will have some ideas of possible problems with the solution </string>
@@ -68,22 +68,21 @@
     <!-- Not working -->
     <string name="not_working_intro">Still having trouble to configure the app?</string>
     <string name="not_working_subintro">If you are sure you have exactly followed the installation guide and you still have problem to connect the app with the game, here you will find some ideas about possible problems</string>
-    <string name="not_working_step1">1) In the <b>Cockpit++.lua</b>, are you sure you typed your Android IP like this:\nlocal clientIP={\"192.168.0.10\"}\nand not like this:\nlocal clientIP={192.168.0.10}\n?</string>
-    <string name="not_working_step2">2) In the <b>Cockpit++.lua</b>, are you sure you didn\'t touch/remove/add any \"&#8212;\" characters? They are used add comments in the script, they are not interpreted by the computer. You can manipulate them if you have some programming knowledges</string>
+    <string name="not_working_step1">1) In the <b>Cockpitpp.lua</b>, are you sure you typed your Android IP like this:\nlocal clientIP={\"192.168.0.10\"}\nand not like this:\nlocal clientIP={192.168.0.10}\n?</string>
+    <string name="not_working_step2">2) In the <b>Cockpitpp.lua</b>, are you sure you didn\'t touch/remove/add any \"&#8212;\" characters? They are used add comments in the script, they are not interpreted by the computer. You can manipulate them if you have some programming knowledges</string>
     <string name="not_working_step3">3) Are you sure your computer where DCS is running is on the same network than your Android?</string>
     <string name="not_working_step4">4) Maybe you have a blocking antiVirus/firewall?</string>
     <string name="not_working_step5">5) Maybe your refused some permission on your Android for this app?</string>
     <string name="not_working_step6">6) Did you activate your wifi/wireless on your Android?</string>
-    <string name="not_working_step7">7) If you have doubts about your Cockpit.lua configuration because default <b><i>Notepad</i></b> in your Windows isn\'t clear enough for you, I suggest you to use <b><i>Notepad++</i></b> instead of the basic <b><i>Notepad</i></b>,then the script will be easier to read, and you will see difference between the executed code and the commented lines (for explanations)</string>
+    <string name="not_working_step7">7) If you have doubts about your Cockpitpp.lua configuration because default <b><i>Notepad</i></b> in your Windows isn\'t clear enough for you, I suggest you to use <b><i>Notepad++</i></b> instead of the basic <b><i>Notepad</i></b>,then the script will be easier to read, and you will see difference between the executed code and the commented lines (for explanations)</string>
     <string name="not_working_step8">8) If the app shows the data from the game but you can\'t send actions to DCS, it means you made a mistake in the Android app</string>
-    <string name="not_working_step9">9) If you can send actions to DCS but the app doesn\'t show the data on the panel in the app , it means you made a mistake in the Cockpit++.lua</string>
+    <string name="not_working_step9">9) If you can send actions to DCS but the app doesn\'t show the data on the panel in the app , it means you made a mistake in the Cockpitpp.lua</string>
     <string name="not_working_step10">10) Be sure you are <u>not</u> in the menu, the connection will work only if you are in running game (with no pause)</string>
     <string name="not_working_step11">11) When you download and extract the files, be sure about their type. Windows could hide the type of the file (the extension .lua), so some people added ".lua" so the name of the files and had \'Cockpit++.lua.lua\' instead of \'Cockpit++.lua\' (same with the Export.lua) </string>
     <string name="not_working_step12">12) Join us on our Discord server to help you to install the application: </string>
 
     <!-- Contribute -->
-    <string name="discord_not_working">https://discord.gg/XjdXfjBgtQ</string>
-    <string name="discord_contribute"></string>
+    <string name="discord">https://discord.gg/qEZMPm42Z7</string>
 
     <!-- About -->
     <string name="about_by_who">Started by <i><b>Astazou</b></i>, <i>Simon CHEVALIER</i></string>
@@ -92,10 +91,9 @@
     <string name="about_thanks">I would like to thank everybody who helped me for this app:\n- friends\n- ED\'s community ( <a href="https://forums.eagle.ru/">forums.eagle.ru</a> )\n- CheckSix\'s community ( <a href="http://www.checksix-forums.com/index.php">checksix-forums.com</a> )\n- Hoggit\'s community ( <a href="https://www.reddit.com/r/hoggit/">www.reddit.com/r/hoggit/</a> )\n- Razbam</string>
     <string name="about_thanks_photo">Background image is from <a href="https://pixabay.com/fr/ciel-nuage-coucher-de-soleil-gris-1054733/">pixabay.com/fr/ciel-nuage-coucher-de-soleil-gris-1054733/</a> </string>
     <string name="about_thanks_font">Font are from <a href="http://www.dafont.com/fr/digital-display-tfb.font">http://www.dafont.com/fr/digital-display-tfb.font</a> and from  <a href="http://www.dafont.com/fr/hemi-head.font">http://www.dafont.com/fr/hemi-head.font</a> </string>
-    <string name="about_thanks_Huertix">Special thanks to <b><i>Huertix</i></b>, his app for the <b><i>A-10C Warthog</i></b> motivated me to developp Cockpit++, here is his app <a href="https://play.google.com/store/apps/details?id=com.dev.huertix.throttle_dcs_beta">https://play.google.com/store/apps/details?id=com.dev.huertix.throttle_dcs_beta</a> </string>
+    <string name="about_thanks_Huertix">Special thanks to <b><i>Huertix</i></b>, his app for the <b><i>A-10C Warthog</i></b> motivated Astazou to developp Cockpit++, here is his app <a href="https://play.google.com/store/apps/details?id=com.dev.huertix.throttle_dcs_beta">https://play.google.com/store/apps/details?id=com.dev.huertix.throttle_dcs_beta</a> </string>
     <string name="about_contributors">Also special thanks to contributors of this project:\n- <b><i>ArthurDCS</i></b> for the VVI,the HSI and the EMIs for the A-10C \n- **Your nickname if you contribute :D** </string>
-    <!-- \n- <b><i>K4ngoo</i></b> for the radio panel of the M2kC! <a href="https://github.com/AlexFaraino/">https://github.com/AlexFaraino/</a>  -->
-    <string name="about_github">Do you want to take part of the project? (translation?new panel?new plateform?&#8230; ?) Feel free to contribute here <a href="https://github.com/CockpitPP/">https://github.com/CockpitPP/</a> (A tuto/doc is in the wiki) or come talk with us on our Discord server: </string>
+    <string name="about_github">Do you want to take part of the project? (translation?new panel?new plateform?&#8230; ?)  Come talk with us on our Discord server: </string>
 
     <!-- ChangeLog -->
     <string name="changelog">ChangeLog</string>
@@ -114,7 +112,7 @@
     <string name="faq_ios_plan"><b>- Any iOS plans?</b>\nFrom me, no, not for now, for one main reason: I would have to buy a mac, an ipad and Apple dev\' licence. But my code will be shared, we can imagine the .LUA code can be used by someone who wants to develop the iOS version ;)</string>
     <string name="faq_multi_device"><b>- Can I use several devices?</b>\nYes, just set properly the .lua file with Androids IP</string>
     <string name="faq_how_it_works"><b>- How it works?</b>\nDCS provides lua access to interact with the game, so I made a lua file to communicate by UDP with android devices using the wifi</string>
-    <string name="faq_contribute"><b>- I want to contribute and make a panel (or translate app in my language, or do test, or contribute as you want), how can I do?</b>\nCome on the project\'s GitHub and contribute: <a href="https://github.com/CockpitPP/">https://github.com/CockpitPP/</a> or come talk with us on our Discord server: </string>
+    <string name="faq_contribute"><b>- I want to contribute and make a panel (or translate app in my language, or do test, or contribute as you want), how can I do?</b>\nCome on the project\'s GitHub and contribute: <a href="https://github.com/Margouill/CockpitPP_Android">https://github.com/Margouill/CockpitPP_Android</a> or come talk with us on our Discord server: </string>
     <string name="faq_not_working"><b>- My app is not working, what can I do?</b>\nRefer to the \"Guide\" on the menu, properly check every steps and if the problems are still here, check the page \"Not working?\" on the menu</string>
     <string name="faq_found_a_bug"><b>- I found a bug, what can I do to report it?</b>\n Open a ticket on GitHub, or tell us on our Discord ;)</string>
 

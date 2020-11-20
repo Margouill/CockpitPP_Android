@@ -22,7 +22,7 @@ public class Not_Working_Activity extends Module_Activity {
         discord.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Uri uriUrl = Uri.parse(getString(R.string.discord_not_working));
+                Uri uriUrl = Uri.parse(getString(R.string.discord));
                 Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
                 startActivity(launchBrowser);
             }

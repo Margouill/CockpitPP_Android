@@ -21,15 +21,6 @@ public class FAQ_Activity extends Module_Activity {
         //Bind the view
         setContentView(R.layout.activity_faq);
 
-        //Bind the Discord button
-        ImageView discord = (ImageView) findViewById(R.id.discord);
-        discord.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Uri uriUrl = Uri.parse(getString(R.string.discord_contribute));
-                Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
-                startActivity(launchBrowser);
-            }
-        });
+
     }
 }

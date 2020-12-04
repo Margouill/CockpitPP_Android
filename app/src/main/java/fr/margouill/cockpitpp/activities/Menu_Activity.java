@@ -2,17 +2,16 @@ package fr.margouill.cockpitpp.activities;
 
 import android.app.Activity;
 import android.app.Dialog;
-import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
+import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.net.Uri;
-import android.os.Build;
-import android.os.Handler;
 import android.os.Bundle;
+import android.os.Handler;
 import android.preference.PreferenceManager;
 import android.support.v7.app.AlertDialog;
 import android.util.Log;
@@ -21,11 +20,11 @@ import android.view.Window;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import fr.margouill.cockpitpp.R;
 import fr.margouill.cockpitpp.services.Konector;
-import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 
 public class Menu_Activity extends Activity {
 
@@ -55,6 +54,11 @@ public class Menu_Activity extends Activity {
             Log.e("",e.getMessage(),e);
         }
 
+        //Display the current version of the app
+        TextView textViewVersionInfo = (TextView) findViewById(R.id.subVersion);
+        String versionDisplayed = "Version " + versionName;
+        textViewVersionInfo.setText(versionDisplayed);
+
         //Bind the buttons from the screen
         Button a10c = (Button) findViewById(R.id.a10c);
         Button av8bna = (Button) findViewById(R.id.av8bna);
@@ -69,6 +73,7 @@ public class Menu_Activity extends Activity {
         Button about = (Button) findViewById(R.id.about);
         Button faq = (Button) findViewById(R.id.faq);
         Button exit = (Button) findViewById(R.id.exit);
+
 
         //Bind the Discord button
         ImageView discord = (ImageView) findViewById(R.id.menuDiscord);
@@ -101,7 +106,7 @@ public class Menu_Activity extends Activity {
             public void onClick(View v) {
                 // custom dialog
                 final Dialog dialog = new Dialog(Menu_Activity.this);
-                dialog.getWindow().setBackgroundDrawable(new ColorDrawable(android.graphics.Color.TRANSPARENT));
+                dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                 dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
                 dialog.setContentView(R.layout.mode_chooser);
 
@@ -131,7 +136,7 @@ public class Menu_Activity extends Activity {
             public void onClick(View v) {
                 // custom dialog
                 final Dialog dialog = new Dialog(Menu_Activity.this);
-                dialog.getWindow().setBackgroundDrawable(new ColorDrawable(android.graphics.Color.TRANSPARENT));
+                dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
                 dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
                 dialog.setContentView(R.layout.mode_chooser);
 
@@ -289,7 +294,7 @@ public class Menu_Activity extends Activity {
 
         //Fill the Dialog
         final String version = versionName;
-        final String changelog = getString(R.string.changelog_5) + "\n" +  getString(R.string.changelog_4) + "\n" +  getString(R.string.changelog_3) + "\n" + getString(R.string.changelog_2) + "\n" + getString(R.string.changelog_1);
+        final String changelog = getString(R.string.changelog_7) + "\n" + getString(R.string.changelog_6) + "\n" + getString(R.string.changelog_5) + "\n" +  getString(R.string.changelog_4) + "\n" +  getString(R.string.changelog_3) + "\n" + getString(R.string.changelog_2) + "\n" + getString(R.string.changelog_1);
         AlertDialog.Builder builder;
         builder = new AlertDialog.Builder(this, android.R.style.Theme_Material_Dialog_Alert);
         builder.setTitle(getString(R.string.changelog) + " " + version)
@@ -327,14 +332,7 @@ public class Menu_Activity extends Activity {
         stopService(intent);
     }
 
-    /**
-     * Inject Calligraphy into Context Activity
-     * @param newBase
-     */
-    @Override
-    protected void attachBaseContext(Context newBase) {
-        super.attachBaseContext(CalligraphyContextWrapper.wrap(newBase));
-    }
+
 
     @Override
     protected void onResume() {

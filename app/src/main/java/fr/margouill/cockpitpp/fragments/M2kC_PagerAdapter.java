@@ -4,15 +4,11 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-/**
- * Created by margouill on 04/09/2016.
- *
- */
 public class M2kC_PagerAdapter extends FragmentPagerAdapter {
 
-    private String tabtitles[];
+    private String[] tabtitles;
 
-    public M2kC_PagerAdapter(FragmentManager fm, String pTabtitles[]) {
+    public M2kC_PagerAdapter(FragmentManager fm, String[] pTabtitles) {
         super(fm);
         tabtitles = pTabtitles;
     }
@@ -38,6 +34,9 @@ public class M2kC_PagerAdapter extends FragmentPagerAdapter {
             case 3:
                 fragment = new M2kC_INS_Knob();
                 break;
+            //case 4:
+               // fragment = new M2kC_VUHF();
+               // break;
             default:
                 fragment = new M2kC_PCA();
 

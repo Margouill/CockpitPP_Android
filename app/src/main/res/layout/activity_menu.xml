@@ -15,9 +15,10 @@
 
     <ScrollView
         android:id="@+id/scrollLayout"
-        android:layout_width="175dp"
+        android:layout_width="200dp"
         android:layout_height="match_parent"
         android:background="#5321">
+
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -27,171 +28,171 @@
                 android:id="@+id/a10c"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/menuButtonTextColor"
-                android:gravity="start|center_vertical"
-                android:scaleType="fitCenter"
-                android:padding="6dp"
                 android:background="@drawable/button_menu"
-                android:textSize="20sp"
+                android:fontFamily="@font/ttf_hemi_head_bd_it"
+                android:gravity="start|center_vertical"
+                android:padding="6dp"
+                android:scaleType="fitCenter"
                 android:text="@string/menu_a10c"
-                />
+                android:textColor="@color/menuButtonTextColor"
+                android:textSize="20sp" />
 
             <Button
                 android:id="@+id/av8bna"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/menuButtonTextColor"
-                android:gravity="start|center_vertical"
-                android:scaleType="fitCenter"
-                android:padding="6dp"
                 android:background="@drawable/button_menu"
-                android:textSize="20sp"
+                android:fontFamily="@font/ttf_hemi_head_bd_it"
+                android:gravity="start|center_vertical"
+                android:padding="6dp"
+                android:scaleType="fitCenter"
                 android:text="@string/menu_av8bna"
-                />
+                android:textColor="@color/menuButtonTextColor"
+                android:textSize="20sp" />
 
             <Button
                 android:id="@+id/f15c"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/menuButtonTextColor"
-                android:gravity="start|center_vertical"
-                android:scaleType="fitCenter"
-                android:padding="6dp"
                 android:background="@drawable/button_menu"
-                android:textSize="20sp"
+                android:fontFamily="@font/ttf_hemi_head_bd_it"
+                android:gravity="start|center_vertical"
+                android:padding="6dp"
+                android:scaleType="fitCenter"
                 android:text="@string/menu_f15c"
-                />
+                android:textColor="@color/menuButtonTextColor"
+                android:textSize="20sp" />
 
             <Button
                 android:id="@+id/mig21"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/menuButtonTextColor"
-                android:gravity="start|center_vertical"
-                android:scaleType="fitCenter"
-                android:padding="6dp"
                 android:background="@drawable/button_menu"
-                android:textSize="20sp"
+                android:fontFamily="@font/ttf_hemi_head_bd_it"
+                android:gravity="start|center_vertical"
+                android:padding="6dp"
+                android:scaleType="fitCenter"
                 android:text="@string/menu_mig21"
-                />
+                android:textColor="@color/menuButtonTextColor"
+                android:textSize="20sp" />
 
             <Button
                 android:id="@+id/mirage"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/menuButtonTextColor"
-                android:gravity="start|center_vertical"
-                android:scaleType="fitCenter"
-                android:padding="6dp"
                 android:background="@drawable/button_menu"
-                android:textSize="20sp"
+                android:fontFamily="@font/ttf_hemi_head_bd_it"
+                android:gravity="start|center_vertical"
+                android:padding="6dp"
+                android:scaleType="fitCenter"
                 android:text="@string/menu_m2kc"
-                />
+                android:textColor="@color/menuButtonTextColor"
+                android:textSize="20sp" />
 
             <Button
                 android:id="@+id/ka50"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/button_menu"
+                android:fontFamily="@font/ttf_hemi_head_bd_it"
                 android:gravity="start|center_vertical"
                 android:padding="6dp"
                 android:scaleType="fitCenter"
                 android:text="@string/menu_ka50"
                 android:textColor="@color/menuButtonTextColor"
-                android:textSize="20sp"
-                />
+                android:textSize="20sp" />
 
             <Button
                 android:id="@+id/huey"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/menuButtonTextColor"
-                android:gravity="start|center_vertical"
-                android:scaleType="fitCenter"
-                android:padding="6dp"
                 android:background="@drawable/button_menu"
-                android:textSize="20sp"
+                android:fontFamily="@font/ttf_hemi_head_bd_it"
+                android:gravity="start|center_vertical"
+                android:padding="6dp"
+                android:scaleType="fitCenter"
                 android:text="@string/menu_huey"
-                />
+                android:textColor="@color/menuButtonTextColor"
+                android:textSize="20sp" />
 
             <View
                 android:layout_width="match_parent"
                 android:layout_height="2dp"
                 android:layout_marginTop="6dp"
                 android:layout_marginBottom="6dp"
-                android:background="@color/menuDivider"/>
+                android:background="@color/menuDivider" />
 
             <Button
                 android:id="@+id/config"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="6dp"
-                android:textColor="@color/menuButtonTextColor"
-                android:gravity="start|center_vertical"
                 android:background="@drawable/button_menu"
-                android:textSize="20sp"
+                android:fontFamily="@font/ttf_hemi_head_bd_it"
+                android:gravity="start|center_vertical"
+                android:padding="6dp"
                 android:text="@string/menu_settings"
-                />
+                android:textColor="@color/menuButtonTextColor"
+                android:textSize="20sp" />
 
             <Button
                 android:id="@+id/guide"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="6dp"
-                android:textColor="@color/menuButtonTextColor"
-                android:gravity="start|center_vertical"
                 android:background="@drawable/button_menu"
-                android:textSize="20sp"
+                android:fontFamily="@font/ttf_hemi_head_bd_it"
+                android:gravity="start|center_vertical"
+                android:padding="6dp"
                 android:text="@string/menu_guide"
-                />
+                android:textColor="@color/menuButtonTextColor"
+                android:textSize="20sp" />
 
             <Button
                 android:id="@+id/not_working"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="6dp"
-                android:textColor="@color/menuButtonTextColor"
-                android:gravity="start|center_vertical"
                 android:background="@drawable/button_menu"
-                android:textSize="20sp"
+                android:fontFamily="@font/ttf_hemi_head_bd_it"
+                android:gravity="start|center_vertical"
+                android:padding="6dp"
                 android:text="@string/menu_not_guide"
-                />
+                android:textColor="@color/menuButtonTextColor"
+                android:textSize="20sp" />
 
             <Button
                 android:id="@+id/about"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="6dp"
-                android:textColor="@color/menuButtonTextColor"
-                android:gravity="start|center_vertical"
                 android:background="@drawable/button_menu"
-                android:textSize="20sp"
+                android:fontFamily="@font/ttf_hemi_head_bd_it"
+                android:gravity="start|center_vertical"
+                android:padding="6dp"
                 android:text="@string/menu_about"
-                />
+                android:textColor="@color/menuButtonTextColor"
+                android:textSize="20sp" />
 
             <Button
                 android:id="@+id/faq"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="6dp"
-                android:textColor="@color/menuButtonTextColor"
-                android:gravity="start|center_vertical"
                 android:background="@drawable/button_menu"
-                android:textSize="20sp"
+                android:fontFamily="@font/ttf_hemi_head_bd_it"
+                android:gravity="start|center_vertical"
+                android:padding="6dp"
                 android:text="@string/menu_faq"
-                />
+                android:textColor="@color/menuButtonTextColor"
+                android:textSize="20sp" />
 
             <Button
                 android:id="@+id/exit"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="6dp"
-                android:textColor="@color/menuButtonTextColor"
-                android:gravity="start|center_vertical"
                 android:background="@drawable/button_menu"
-                android:textSize="20sp"
+                android:fontFamily="@font/ttf_hemi_head_bd_it"
+                android:gravity="start|center_vertical"
+                android:padding="6dp"
                 android:text="@string/menu_exit"
-                />
+                android:textColor="@color/menuButtonTextColor"
+                android:textSize="20sp" />
         </LinearLayout>
     </ScrollView>
 
@@ -225,6 +226,7 @@
             android:id="@+id/Title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/ttf_hemi_head_bd_it"
             android:gravity="center"
             android:text="@string/app_name"
             android:textAppearance="@style/PagerTabStripText"
@@ -235,6 +237,7 @@
             android:id="@+id/subTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/ttf_hemi_head_bd_it"
             android:gravity="center"
             android:text="@string/subTitle"
             android:textAppearance="@style/PagerTabStripText"
@@ -245,6 +248,7 @@
             android:id="@+id/subVersion"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/ttf_hemi_head_bd_it"
             android:gravity="center"
             android:text="@string/version"
             android:textAppearance="@style/PagerTabStripText"

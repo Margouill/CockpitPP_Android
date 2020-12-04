@@ -10,9 +10,9 @@ import android.support.v4.app.FragmentPagerAdapter;
  */
 public class Ka50_PagerAdapter extends FragmentPagerAdapter {
 
-    private String tabtitles[];
+    private String[] tabtitles;
 
-    public Ka50_PagerAdapter(FragmentManager fm, String pTabtitles[]) {
+    public Ka50_PagerAdapter(FragmentManager fm, String[] pTabtitles) {
         super(fm);
         tabtitles = pTabtitles;
     }

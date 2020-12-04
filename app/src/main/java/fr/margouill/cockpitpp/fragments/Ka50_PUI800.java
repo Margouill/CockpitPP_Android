@@ -9,6 +9,7 @@ import android.content.res.Configuration;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.content.res.ResourcesCompat;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -94,12 +95,15 @@ public class Ka50_PUI800 extends Fragment {
         super.onCreate(savedInstanceState);
         getActivity().registerReceiver(this.mBroadCastNewMessage, new IntentFilter(BroadcastKeys.KA50_PUI800));
 
+
+
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_ka50_armament, container, false);
+
         mBackgroundView = (ImageView) view.findViewById(R.id.layout);
         mContainer = (LinearLayout) view.findViewById(R.id.container);
 
@@ -239,6 +243,11 @@ public class Ka50_PUI800 extends Fragment {
         mPUI800WeaponTypeTextView = (TextView) view.findViewById(R.id.ka50_pui800_type_textview);
         mPUI800WeaponRemainTextView = (TextView) view.findViewById(R.id.ka50_pui800_weaponremain_textview);
         mPUI800CanonRemainTextView = (TextView) view.findViewById(R.id.ka50_pui800_canonremain_textview);
+
+        // Rétro compatibilité API29-
+        mPUI800WeaponTypeTextView.setTypeface(ResourcesCompat.getFont(requireContext(), R.font.ttf_digital_display_tfb));
+        mPUI800WeaponRemainTextView.setTypeface(ResourcesCompat.getFont(requireContext(), R.font.ttf_digital_display_tfb));
+        mPUI800CanonRemainTextView.setTypeface(ResourcesCompat.getFont(requireContext(), R.font.ttf_digital_display_tfb));
 
         return view;
     }

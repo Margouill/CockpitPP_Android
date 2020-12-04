@@ -1,0 +1,927 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="MissingPrefix"
+    tools:context="fr.margouill.cockpitpp.fragments.M2kC_VUHF">
+
+    <ImageView
+        android:id="@+id/layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:adjustViewBounds="true"
+        android:contentDescription="@null"
+        android:scaleType="fitXY"
+        android:src="@drawable/m2kc_vhf_background" />
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        tools:weightSum="9">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.25" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.8"
+            android:orientation="vertical"
+            android:weightSum="4">
+
+            <View
+                android:id="@+id/view104"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.3" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.9"
+                android:orientation="horizontal">
+
+                <View
+                    android:id="@+id/view94"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1.2" />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/m2kc_vuhf_bt_clr"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_horizontal|left"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/m2kc_vuhf_clr"
+                            fontPath="fonts/MS33558.ttf"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center_horizontal|center_vertical"
+                            android:text="CLR"
+                            android:textColor="@color/m2kc_vuhf_cyan"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/m2kc_vuhf_mem"
+                            fontPath="fonts/MS33558.ttf"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center_horizontal|center_vertical"
+                            android:text="MEM"
+                            android:textColor="@color/m2kc_vuhf_cyan"
+                            android:textSize="20sp"
+                            tools:textAlignment="center" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view103"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.52" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        tools:weightSum="2">
+
+                        <View
+                            android:id="@+id/view91"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.3" />
+
+                        <ImageView
+                            android:id="@+id/m2kc_vuhf_rot1"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1.4"
+                            android:src="@drawable/m2kc_vhf_rot1" />
+
+                        <View
+                            android:id="@+id/view92"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.3" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/m2kc_vuhf_bt1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/circle_button_released" />
+
+                        <Button
+                            android:id="@+id/m2kc_vuhf_bt2"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:background="@drawable/circle_button_released" />
+                    </LinearLayout>
+
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4.9"
+            android:orientation="vertical"
+            android:weightSum="4">
+
+            <View
+                android:id="@+id/view109"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.3" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.8"
+                android:orientation="horizontal"
+                android:weightSum="5">
+
+                <View
+                    android:id="@+id/view89"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.4" />
+
+                <TextView
+                    android:id="@+id/m2kc_vuhf_display"
+                    fontPath="fonts/RingMatrix.ttf"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="3.1"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:text="FF 24300"
+                    android:textAlignment="center"
+                    android:textColor="@color/m2kc_vuhf_green"
+                    android:textSize="50sp" />
+
+                <View
+                    android:id="@+id/view96"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.45" />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.85">
+
+                    <Button
+                        android:id="@+id/m2kc_vuhf_bt_vld"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/m2kc_vuhf_vld2"
+                            fontPath="fonts/MS33558.ttf"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center_horizontal|center_vertical"
+                            android:text="VLD"
+                            android:textColor="@color/m2kc_vuhf_cyan"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/m2kc_vuhf_xfr2"
+                            fontPath="fonts/MS33558.ttf"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center_horizontal|center_vertical"
+                            android:text="XFR"
+                            android:textColor="@color/m2kc_vuhf_cyan"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <View
+                    android:id="@+id/view97"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.18" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view108"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.35" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="6.1">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.25" />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/m2kc_vuhf_bt_1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/m2kc_vuhf_1"
+                            fontPath="fonts/MS33558.ttf"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center_horizontal|left|center_vertical"
+                            android:text="1"
+                            android:textColor="@color/m2kc_vuhf_cyan"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/m2kc_vuhf_1b"
+                            fontPath="fonts/MS33558.ttf"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.5"
+                            android:text="READ"
+                            android:textColor="@color/m2kc_vuhf_cyan"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.22" />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/m2kc_vuhf_bt_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/m2kc_vuhf_2"
+                            fontPath="fonts/MS33558.ttf"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center_horizontal|left|center_vertical"
+                            android:text="2 &#x2022;"
+                            android:textColor="@color/m2kc_vuhf_cyan"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/m2kc_vuhf_2b"
+                            fontPath="fonts/MS33558.ttf"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.5"
+                            android:text="SQL"
+                            android:textColor="@color/m2kc_vuhf_cyan"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.17" />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/m2kc_vuhf_bt_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/m2kc_vuhf_3"
+                            fontPath="fonts/MS33558.ttf"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center_horizontal|left|center_vertical"
+                            android:text="3 &#x2022;"
+                            android:textColor="@color/m2kc_vuhf_cyan"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/m2kc_vuhf_3b"
+                            fontPath="fonts/MS33558.ttf"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.5"
+                            android:text="GR"
+                            android:textColor="@color/m2kc_vuhf_cyan"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <View
+                    android:id="@+id/view101"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.17" />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/m2kc_vuhf_bt_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/m2kc_vuhf_4"
+                            fontPath="fonts/MS33558.ttf"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center_horizontal|left|center_vertical"
+                            android:text="4"
+                            android:textColor="@color/m2kc_vuhf_cyan"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/m2kc_vuhf_4b"
+                            fontPath="fonts/MS33558.ttf"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.5"
+                            android:text=""
+                            android:textColor="@color/m2kc_vuhf_cyan"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <View
+                    android:id="@+id/view105"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.17" />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/m2kc_vuhf_bt_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/m2kc_vuhf_520"
+                            fontPath="fonts/MS33558.ttf"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center_vertical"
+                            android:text="5 20"
+                            android:textColor="@color/m2kc_vuhf_cyan"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/m2kc_vuhf_5b"
+                            fontPath="fonts/MS33558.ttf"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="0.5"
+                            android:text="LOW"
+                            android:textColor="@color/m2kc_vuhf_cyan"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <View
+                    android:id="@+id/view106"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.23" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="6.1">
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.25" />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/m2kc_vuhf_bt_6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/m2kc_vuhf_6"
+                            fontPath="fonts/MS33558.ttf"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center_horizontal|left|center_vertical"
+                            android:text="6"
+                            android:textColor="@color/m2kc_vuhf_cyan"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/m2kc_vuhf_6b"
+                            fontPath="fonts/MS33558.ttf"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.5"
+                            android:text="TONE"
+                            android:textColor="@color/m2kc_vuhf_cyan"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.22" />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/m2kc_vuhf_bt_7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/m2kc_vuhf_7"
+                            fontPath="fonts/MS33558.ttf"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center_horizontal|left|center_vertical"
+                            android:text="7"
+                            android:textColor="@color/m2kc_vuhf_cyan"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/m2kc_vuhf_7b"
+                            fontPath="fonts/MS33558.ttf"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.5"
+                            android:text=""
+                            android:textColor="@color/m2kc_vuhf_cyan"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.17" />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/m2kc_vuhf_bt_8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/m2kc_vuhf_8"
+                            fontPath="fonts/MS33558.ttf"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.5"
+                            android:gravity="left|center_vertical"
+                            android:text="8"
+                            android:textColor="@color/m2kc_vuhf_cyan"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/m2kc_vuhf_8b"
+                            fontPath="fonts/MS33558.ttf"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.5"
+                            android:text="TOD"
+                            android:textColor="@color/m2kc_vuhf_cyan"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.17" />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/m2kc_vuhf_bt_9"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/m2kc_vuhf_9"
+                            fontPath="fonts/MS33558.ttf"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.5"
+                            android:gravity="left|center_vertical"
+                            android:text="9"
+                            android:textColor="@color/m2kc_vuhf_cyan"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/m2kc_vuhf_9b"
+                            fontPath="fonts/MS33558.ttf"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.5"
+                            android:text="ZERO"
+                            android:textColor="@color/m2kc_vuhf_cyan"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.17" />
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <Button
+                        android:id="@+id/m2kc_vuhf_bt_0"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@null" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/m2kc_vuhf_0"
+                            fontPath="fonts/MS33558.ttf"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.5"
+                            android:gravity="center_horizontal|left|center_vertical"
+                            android:text="0"
+                            android:textColor="@color/m2kc_vuhf_cyan"
+                            android:textSize="20sp" />
+
+                        <TextView
+                            android:id="@+id/m2kc_vuhf_0b"
+                            fontPath="fonts/MS33558.ttf"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="0.5"
+                            android:text=""
+                            android:textColor="@color/m2kc_vuhf_cyan"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.1" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.32" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.7"
+            android:orientation="vertical"
+            android:weightSum="4">
+
+            <View
+                android:id="@+id/view115"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.55" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    tools:weightSum="2">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.3" />
+
+                    <ImageView
+                        android:id="@+id/m2kc_vuhf_rot2"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1.4"
+                        android:src="@drawable/m2kc_vhf_rot2" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="0.3" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/m2kc_vuhf_bt3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/circle_button_released" />
+
+                    <Button
+                        android:id="@+id/m2kc_vuhf_bt4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/circle_button_released" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/view112"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.55" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <RelativeLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.57">
+
+                        <Button
+                            android:id="@+id/m2kc_vuhf_bt_conf"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@null" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_weight="0.57"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/m2kc_vuhf_conf"
+                                fontPath="fonts/MS33558.ttf"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_weight="0.5"
+                                android:gravity="center_horizontal|center_vertical"
+                                android:text="CONF"
+                                android:textAlignment="center"
+                                android:textColor="@color/m2kc_vuhf_cyan"
+                                android:textSize="20sp"
+                                tools:textAlignment="center" />
+
+                            <TextView
+                                android:id="@+id/m2kc_vuhf_confb"
+                                fontPath="fonts/MS33558.ttf"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_gravity="center_horizontal"
+                                android:layout_weight="0.5"
+                                android:gravity="center_horizontal|center_vertical"
+                                android:text="MEM"
+                                android:textAlignment="center"
+                                android:textColor="@color/m2kc_vuhf_cyan"
+                                android:textSize="20sp"
+                                tools:textAlignment="center" />
+                        </LinearLayout>
+
+                    </RelativeLayout>
+
+                    <View
+                        android:id="@+id/view113"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.44" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view111"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.38" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view110"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.35" />
+
+    </LinearLayout>
+
+</FrameLayout>

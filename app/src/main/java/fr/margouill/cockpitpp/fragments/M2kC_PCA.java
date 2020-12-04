@@ -9,6 +9,7 @@ import android.content.res.Configuration;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.content.res.ResourcesCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -196,7 +197,7 @@ public class M2kC_PCA extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_m2kc_pca, container, false);
-        mBackgroundView = (ImageView)view.findViewById(R.id.pcalayout);
+        mBackgroundView = (ImageView)view.findViewById(R.id.layout);
         mContainer = (LinearLayout) view.findViewById(R.id.container);
         mUr1 = (TextView) view.findViewById(R.id.ur1);
         mUr2 = (TextView) view.findViewById(R.id.ur2);
@@ -236,6 +237,19 @@ public class M2kC_PCA extends Fragment {
         mBrBtn3 = (LinearLayout) view.findViewById(R.id.ur3btn);
         mBrBtn4 = (LinearLayout) view.findViewById(R.id.ur4btn);
         mBrBtn5 = (LinearLayout) view.findViewById(R.id.ur5btn);
+
+        // Rétro compatibilité API29-
+        mUr1.setTypeface(ResourcesCompat.getFont(requireContext(), R.font.ttf_digital_display_tfb));
+        mUr2.setTypeface(ResourcesCompat.getFont(requireContext(), R.font.ttf_digital_display_tfb));
+        mUr3.setTypeface(ResourcesCompat.getFont(requireContext(), R.font.ttf_digital_display_tfb));
+        mUr4.setTypeface(ResourcesCompat.getFont(requireContext(), R.font.ttf_digital_display_tfb));
+        mUr5.setTypeface(ResourcesCompat.getFont(requireContext(), R.font.ttf_digital_display_tfb));
+        mBr1.setTypeface(ResourcesCompat.getFont(requireContext(), R.font.ttf_digital_display_tfb));
+        mBr2.setTypeface(ResourcesCompat.getFont(requireContext(), R.font.ttf_digital_display_tfb));
+        mBr3.setTypeface(ResourcesCompat.getFont(requireContext(), R.font.ttf_digital_display_tfb));
+        mBr4.setTypeface(ResourcesCompat.getFont(requireContext(), R.font.ttf_digital_display_tfb));
+        mBr5.setTypeface(ResourcesCompat.getFont(requireContext(), R.font.ttf_digital_display_tfb));
+
 
         View.OnClickListener onClickListenerMasterArm = new View.OnClickListener() {
             @Override

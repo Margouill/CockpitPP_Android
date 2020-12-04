@@ -6,7 +6,7 @@
     tools:context="fr.margouill.cockpitpp.fragments.M2kC_PCA">
 
     <ImageView
-        android:id="@+id/pcalayout"
+        android:id="@+id/layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/m2kc_pca"
@@ -148,11 +148,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:layout_weight="1"
+                android:fontFamily="@font/ttf_digital_display_tfb"
                 android:gravity="center"
-                android:textSize="32sp"
-                fontPath="fonts/digital_display_tfb.ttf"
                 android:textColor="@color/m2kCGreen"
-                android:textStyle="bold"/>
+                android:textSize="32sp"
+                android:textStyle="bold" />
 
 
             <TextView
@@ -177,7 +177,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:textSize="32sp"
-                fontPath="fonts/digital_display_tfb.ttf"
+                android:fontFamily="@font/ttf_digital_display_tfb"
                 android:textColor="@color/m2kCGreen"
                 android:textStyle="bold"/>
 
@@ -240,7 +240,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:textSize="32sp"
-                fontPath="fonts/digital_display_tfb.ttf"
+                android:fontFamily="@font/ttf_digital_display_tfb"
                 android:textColor="@color/m2kCGreen"
                 android:textStyle="bold"/>
 
@@ -270,7 +270,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:textSize="32sp"
-                fontPath="fonts/digital_display_tfb.ttf"
+                android:fontFamily="@font/ttf_digital_display_tfb"
                 android:textColor="@color/m2kCGreen"
                 android:textStyle="bold"/>
 
@@ -333,7 +333,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:textSize="32sp"
-                fontPath="fonts/digital_display_tfb.ttf"
+                android:fontFamily="@font/ttf_digital_display_tfb"
                 android:textColor="@color/m2kCGreen"
                 android:textStyle="bold"/>
 
@@ -360,7 +360,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:textSize="32sp"
-                fontPath="fonts/digital_display_tfb.ttf"
+                android:fontFamily="@font/ttf_digital_display_tfb"
                 android:textColor="@color/m2kCGreen"
                 android:textStyle="bold"/>
 
@@ -423,7 +423,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:textSize="32sp"
-                fontPath="fonts/digital_display_tfb.ttf"
+                android:fontFamily="@font/ttf_digital_display_tfb"
                 android:textColor="@color/m2kCGreen"
                 android:textStyle="bold"/>
 
@@ -453,7 +453,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:textSize="32sp"
-                fontPath="fonts/digital_display_tfb.ttf"
+                android:fontFamily="@font/ttf_digital_display_tfb"
                 android:textColor="@color/m2kCGreen"
                 android:textStyle="bold"/>
 
@@ -516,7 +516,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:textSize="32sp"
-                fontPath="fonts/digital_display_tfb.ttf"
+                android:fontFamily="@font/ttf_digital_display_tfb"
                 android:textColor="@color/m2kCGreen"
                 android:textStyle="bold"/>
 
@@ -543,7 +543,7 @@
                 android:layout_weight="1"
                 android:gravity="center"
                 android:textSize="32sp"
-                fontPath="fonts/digital_display_tfb.ttf"
+                android:fontFamily="@font/ttf_digital_display_tfb"
                 android:textColor="@color/m2kCGreen"
                 android:textStyle="bold"/>
 

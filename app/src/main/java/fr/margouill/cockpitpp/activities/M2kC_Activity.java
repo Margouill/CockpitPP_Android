@@ -2,6 +2,7 @@ package fr.margouill.cockpitpp.activities;
 
 import android.graphics.Typeface;
 import android.os.Bundle;
+
 import android.support.v4.view.PagerTabStrip;
 import android.support.v4.view.ViewPager;
 import android.view.View;
@@ -21,6 +22,7 @@ public class M2kC_Activity extends Module_Activity {
 
         //Load the fragments in the viewPager
         M2kC_PagerAdapter pagerAdapter = new M2kC_PagerAdapter(getSupportFragmentManager(),new String[] { getString(R.string.m2kc_pca) + " ", getString(R.string.m2kc_ppa) + " ",getString(R.string.m2kc_ins) + " ",getString(R.string.m2kc_ins_knobs) + " "});
+        //M2kC_PagerAdapter pagerAdapter = new M2kC_PagerAdapter(getSupportFragmentManager(),new String[] { getString(R.string.m2kc_pca) + " ", getString(R.string.m2kc_ppa) + " ",getString(R.string.m2kc_ins) + " ",getString(R.string.m2kc_ins_knobs) + " ",getString(R.string.m2kc_vuhf) + " "});
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
         viewPager.setAdapter(pagerAdapter);
 

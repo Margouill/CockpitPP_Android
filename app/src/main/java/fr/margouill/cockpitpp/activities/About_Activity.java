@@ -16,10 +16,6 @@ import android.widget.TextView;
 
 import fr.margouill.cockpitpp.R;
 
-/**
- * Created by margouill on 29/04/2017.
- * About screen
- */
 public class About_Activity extends Module_Activity {
 
     @Override
@@ -45,7 +41,7 @@ public class About_Activity extends Module_Activity {
 
         //Fill the changelog in the dialog if the user click on the changelog's button
         final String version = versionName;
-        final String changelog = getString(R.string.changelog_6) + "\n" + getString(R.string.changelog_5) + "\n" + getString(R.string.changelog_4) + "\n" + getString(R.string.changelog_3) + "\n" + getString(R.string.changelog_2) + "\n" + getString(R.string.changelog_1);
+        final String changelog = getString(R.string.changelog_7) + "\n" + getString(R.string.changelog_6) + "\n" + getString(R.string.changelog_5) + "\n" + getString(R.string.changelog_4) + "\n" + getString(R.string.changelog_3) + "\n" + getString(R.string.changelog_2) + "\n" + getString(R.string.changelog_1);
         Button changelogButton = (Button) findViewById(R.id.changelog);
         changelogButton.setOnClickListener(new View.OnClickListener() {
             @Override

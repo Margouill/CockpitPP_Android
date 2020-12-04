@@ -264,17 +264,17 @@
 
                         <TextView
                             android:id="@+id/ka50_pui800_type_textview"
-                            fontPath="fonts/digital_display_tfb.ttf"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
-                            android:layout_marginTop="-20dp"
+                            android:layout_marginTop="-20sp"
                             android:layout_weight="1.75"
-                            android:gravity="center"
-                            android:padding="0dp"
+                            android:fontFamily="@font/ttf_digital_display_tfb"
+                            android:gravity="center_horizontal|top"
                             android:text="88"
+                            android:textAlignment="gravity"
                             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                             android:textColor="@color/m2kCGreen"
-                            android:textSize="120sp"
+                            android:textSize="100sp"
                             android:textStyle="bold"
                             tools:typeface="monospace" />
 
@@ -286,16 +286,17 @@
 
                         <TextView
                             android:id="@+id/ka50_pui800_weaponremain_textview"
-                            fontPath="fonts/digital_display_tfb.ttf"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
-                            android:layout_marginTop="-20dp"
+                            android:layout_marginTop="-20sp"
                             android:layout_weight="1.75"
-                            android:gravity="center"
+                            android:fontFamily="@font/ttf_digital_display_tfb"
+                            android:gravity="center_horizontal|top"
                             android:text="88"
+                            android:textAlignment="gravity"
                             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                             android:textColor="@color/m2kCGreen"
-                            android:textSize="120sp"
+                            android:textSize="100sp"
                             android:textStyle="bold"
                             tools:typeface="monospace" />
 
@@ -307,16 +308,17 @@
 
                         <TextView
                             android:id="@+id/ka50_pui800_canonremain_textview"
-                            fontPath="fonts/digital_display_tfb.ttf"
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
-                            android:layout_marginTop="-20dp"
+                            android:layout_marginTop="-20sp"
                             android:layout_weight="1.75"
-                            android:gravity="center"
+                            android:fontFamily="@font/ttf_digital_display_tfb"
+                            android:gravity="center_horizontal|top"
                             android:text="88"
+                            android:textAlignment="gravity"
                             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
                             android:textColor="@color/m2kCGreen"
-                            android:textSize="120sp"
+                            android:textSize="100sp"
                             android:textStyle="bold"
                             tools:typeface="monospace" />
 

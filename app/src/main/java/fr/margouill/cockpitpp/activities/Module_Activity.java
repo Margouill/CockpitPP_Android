@@ -13,7 +13,7 @@ import android.widget.Toast;
 
 import fr.margouill.cockpitpp.R;
 import fr.margouill.cockpitpp.utils.BroadcastKeys;
-import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
+//import uk.co.chrisjenx.calligraphy.CalligraphyContextWrapper;
 
 /**
  * Created by archi on 24/09/2017.
@@ -44,14 +44,7 @@ public class Module_Activity extends FragmentActivity {
         registerReceiver(mBroadCastNewMessage, new IntentFilter(BroadcastKeys.ONLINE));
     }
 
-    /**
-     * Inject Calligraphy into Context Activity
-     * @param newBase
-     */
-    @Override
-    protected void attachBaseContext(Context newBase) {
-        super.attachBaseContext(CalligraphyContextWrapper.wrap(newBase));
-    }
+
 
     /**
      * Unregister the broadcast received leaving the activity

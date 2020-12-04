@@ -9,6 +9,7 @@ import android.content.res.Configuration;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.content.res.ResourcesCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -108,6 +109,10 @@ public class M2kC_PPA extends Fragment {
         mDistPlus = view.findViewById(R.id.distPlus);
         mQtyMinus = view.findViewById(R.id.qtyMinus);
         mQtyPlus = view.findViewById(R.id.qtyPlus);
+
+        // Rétro compatibilité API29-
+        mQuantity.setTypeface(ResourcesCompat.getFont(requireContext(), R.font.ttf_digital_display_tfb));
+        mDistance.setTypeface(ResourcesCompat.getFont(requireContext(), R.font.ttf_digital_display_tfb));
 
         View.OnClickListener autMan = new View.OnClickListener() {
             @Override

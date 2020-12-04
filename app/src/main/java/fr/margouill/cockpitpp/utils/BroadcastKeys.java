@@ -28,6 +28,7 @@ public class BroadcastKeys {
     public static final String M2KC_INS_BR = "M2KC_ins_br";
     public static final String M2KC_INS_DATA = "M2KC_ins_data";
     public static final String M2KC_INS_KNOBS = "M2KC_ins_knobs";
+    public static final String M2KC_VUHF = "M2KC_vuhf";
 
     /** Broadcast keys for the F-15C Eagle **/
     public static final String F15C_RWR = "F15C_rwr";

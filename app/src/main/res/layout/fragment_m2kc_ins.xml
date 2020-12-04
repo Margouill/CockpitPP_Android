@@ -52,7 +52,7 @@
                     android:layout_weight="1"
                     android:gravity="center_horizontal|bottom"
                     android:textSize="26sp"
-                    fontPath="fonts/digital_display_tfb.ttf"
+                    android:fontFamily="@font/ttf_digital_display_tfb"
                     android:textColor="@color/m2kCGreen"
                     android:textStyle="bold"/>
                 <TextView
@@ -62,7 +62,7 @@
                     android:layout_weight="1"
                     android:gravity="center_horizontal|top"
                     android:textSize="26sp"
-                    fontPath="fonts/digital_display_tfb.ttf"
+                    android:fontFamily="@font/ttf_digital_display_tfb"
                     android:textColor="@color/m2kCGreen"
                     android:textStyle="bold"/>
             </LinearLayout>
@@ -74,7 +74,7 @@
 
                 <TextView
                     android:id="@+id/ur1"
-                    fontPath="fonts/digital_display_tfb.ttf"
+                    android:fontFamily="@font/ttf_digital_display_tfb"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:gravity="center"
@@ -106,7 +106,7 @@
                     android:layout_weight="1"
                     android:gravity="center_horizontal|bottom"
                     android:textSize="26sp"
-                    fontPath="fonts/digital_display_tfb.ttf"
+                    android:fontFamily="@font/ttf_digital_display_tfb"
                     android:textColor="@color/m2kCGreen"
                     android:textStyle="bold"/>
                 <TextView
@@ -116,7 +116,7 @@
                     android:layout_weight="1"
                     android:gravity="center_horizontal|top"
                     android:textSize="26sp"
-                    fontPath="fonts/digital_display_tfb.ttf"
+                    android:fontFamily="@font/ttf_digital_display_tfb"
                     android:textColor="@color/m2kCGreen"
                     android:textStyle="bold"/>
             </LinearLayout>
@@ -132,7 +132,7 @@
                     android:layout_height="match_parent"
                     android:gravity="center"
                     android:textSize="50sp"
-                    fontPath="fonts/digital_display_tfb.ttf"
+                    android:fontFamily="@font/ttf_digital_display_tfb"
                     android:textColor="@color/m2kCGreen"
                     android:textStyle="bold"/>
 
@@ -169,7 +169,7 @@
                     android:layout_weight="1"
                     android:gravity="center"
                     android:textSize="50sp"
-                    fontPath="fonts/digital_display_tfb.ttf"
+                    android:fontFamily="@font/ttf_digital_display_tfb"
                     android:textColor="@color/m2kCGreen"
                     android:textStyle="bold"/>
 
@@ -180,7 +180,7 @@
                     android:layout_weight="1"
                     android:gravity="center"
                     android:textSize="50sp"
-                    fontPath="fonts/digital_display_tfb.ttf"
+                    android:fontFamily="@font/ttf_digital_display_tfb"
                     android:textColor="@color/m2kCRed"
                     android:textStyle="bold"/>
 
@@ -191,7 +191,7 @@
                     android:layout_weight="1"
                     android:gravity="center"
                     android:textSize="50sp"
-                    fontPath="fonts/digital_display_tfb.ttf"
+                    android:fontFamily="@font/ttf_digital_display_tfb"
                     android:textColor="@color/m2kCGreen"
                     android:textStyle="bold"/>
 

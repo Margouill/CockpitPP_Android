@@ -9,6 +9,7 @@ import android.content.res.Configuration;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.content.res.ResourcesCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -199,6 +200,26 @@ public class M2kC_INS extends Fragment {
         mLightEff =  (ImageView) view.findViewById(R.id.ins_light_eff);
         mBtnIns =  (Button) view.findViewById(R.id.ins_btnins);
         mLightIns =  (ImageView) view.findViewById(R.id.ins_light_ins);
+
+        // Rétro compatibilité API29-
+        mUr1.setTypeface(ResourcesCompat.getFont(requireContext(), R.font.ttf_digital_display_tfb));
+        mUr1Top.setTypeface(ResourcesCompat.getFont(requireContext(), R.font.ttf_digital_display_tfb));
+        mUr1Bottom.setTypeface(ResourcesCompat.getFont(requireContext(), R.font.ttf_digital_display_tfb));
+        mUr2.setTypeface(ResourcesCompat.getFont(requireContext(), R.font.ttf_digital_display_tfb));
+        mUr2Top.setTypeface(ResourcesCompat.getFont(requireContext(), R.font.ttf_digital_display_tfb));
+        mUr2Bottom.setTypeface(ResourcesCompat.getFont(requireContext(), R.font.ttf_digital_display_tfb));
+        mBr1.setTypeface(ResourcesCompat.getFont(requireContext(), R.font.ttf_digital_display_tfb));
+        mBr2.setTypeface(ResourcesCompat.getFont(requireContext(), R.font.ttf_digital_display_tfb));
+        mBrEmode.setTypeface(ResourcesCompat.getFont(requireContext(), R.font.ttf_digital_display_tfb));
+        mLightM91.setTypeface(ResourcesCompat.getFont(requireContext(), R.font.ttf_digital_display_tfb));
+        mLightM92.setTypeface(ResourcesCompat.getFont(requireContext(), R.font.ttf_digital_display_tfb));
+        mLightM93.setTypeface(ResourcesCompat.getFont(requireContext(), R.font.ttf_digital_display_tfb));
+        mLightPRET.setTypeface(ResourcesCompat.getFont(requireContext(), R.font.ttf_digital_display_tfb));
+        mLightALN.setTypeface(ResourcesCompat.getFont(requireContext(), R.font.ttf_digital_display_tfb));
+        mLightMIP.setTypeface(ResourcesCompat.getFont(requireContext(), R.font.ttf_digital_display_tfb));
+        mLightNDEG.setTypeface(ResourcesCompat.getFont(requireContext(), R.font.ttf_digital_display_tfb));
+        mLightSEC.setTypeface(ResourcesCompat.getFont(requireContext(), R.font.ttf_digital_display_tfb));
+        mLightUNI.setTypeface(ResourcesCompat.getFont(requireContext(), R.font.ttf_digital_display_tfb));
 
         mRotMinus.setOnClickListener(new View.OnClickListener() {
             @Override

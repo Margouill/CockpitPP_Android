@@ -117,6 +117,8 @@ public class Konector extends Service {
                                     sendBroadcast(new Intent().setAction(BroadcastKeys.M2KC_INS_BR).putExtra(BroadcastKeys.M2KC_INS_BR,messageArray[9]));
                                     sendBroadcast(new Intent().setAction(BroadcastKeys.M2KC_INS_DATA).putExtra(BroadcastKeys.M2KC_INS_DATA,messageArray[10]));
                                     sendBroadcast(new Intent().setAction(BroadcastKeys.M2KC_INS_KNOBS).putExtra(BroadcastKeys.M2KC_INS_KNOBS,messageArray[11]));
+                                    //sendBroadcast(new Intent().setAction(BroadcastKeys.M2KC_VUHF).putExtra(BroadcastKeys.M2KC_VUHF,messageArray[12]));
+
                                 } else if (messageArray[2].equals(getString(R.string.f15c)) && messageArray.length > 4) {
                                     sendBroadcast(new Intent().setAction(BroadcastKeys.F15C_RWR).putExtra(BroadcastKeys.F15C_RWR,messageArray[4]));
                                 } else if (messageArray[2].equals(getString(R.string.uh1h)) && messageArray.length > 3) {

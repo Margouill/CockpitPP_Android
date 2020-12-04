@@ -9,6 +9,7 @@ import android.content.res.Configuration;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.content.res.ResourcesCompat;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -84,6 +85,10 @@ public class Ka50_UV26 extends Fragment {
         mUV26LeftLed = (ImageView) view.findViewById(R.id.ka50_uv26_led_left);
         mUV26RightLed = (ImageView) view.findViewById(R.id.ka50_uv26_led_right);
         mUV26TextView = (TextView) view.findViewById(R.id.ka50_uv26_tv);
+
+        // Rétro compatibilité API29-
+        mUV26TextView.setTypeface(ResourcesCompat.getFont(requireContext(), R.font.ttf_digital_display_tfb));
+
 
         mUV26SideSelector.setOnClickListener(new View.OnClickListener() {
             @Override

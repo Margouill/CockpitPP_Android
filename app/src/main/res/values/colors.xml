@@ -25,6 +25,8 @@
     <color name="m2kCGreen">#4a4</color>
     <color name="m2kCYellow">#aa4</color>
     <color name="m2kCRed">#F41</color>
+    <color name="m2kc_vuhf_cyan">#B941FFC3</color>
+    <color name="m2kc_vuhf_green">#4DFF00</color>
 
     <!-- Colors for the F-15C Eagle -->
     <color name="f15CBackground">#C3C2C7</color>
@@ -47,5 +49,6 @@
     <!-- Colors for the Av8b Harrier -->
     <color name="mig21bisBackground">#35A2BB</color>
     <color name="mig21bisText">#D4D6DA</color>
+
 
 </resources>

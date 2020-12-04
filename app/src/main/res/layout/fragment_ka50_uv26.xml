@@ -66,7 +66,7 @@
 
                     <TextView
                         android:id="@+id/ka50_uv26_tv"
-                        fontPath="fonts/digital_display_tfb.ttf"
+                        android:fontFamily="@font/ttf_digital_display_tfb"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="4.3"

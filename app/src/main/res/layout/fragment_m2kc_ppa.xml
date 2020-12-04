@@ -364,7 +364,7 @@
                         android:gravity="center"
                         android:textColor="@color/m2kCGreen"
                         android:textSize="64sp"
-                        fontPath="fonts/digital_display_tfb.ttf"/>
+                        android:fontFamily="@font/ttf_digital_display_tfb"/>
 
                     <TextView
                         android:id="@+id/distance"
@@ -374,7 +374,7 @@
                         android:gravity="center"
                         android:textColor="@color/m2kCGreen"
                         android:textSize="64sp"
-                        fontPath="fonts/digital_display_tfb.ttf"/>
+                        android:fontFamily="@font/ttf_digital_display_tfb"/>
 
                     <View
                         android:layout_width="match_parent"

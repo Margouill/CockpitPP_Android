@@ -148,7 +148,7 @@ public class Ka50_Overhead extends Fragment {
         mOverheadNavSelector = (Button) view.findViewById(R.id.ka50_overhead_nav_sw);
         mOverheadNavSelectorLeft = (ImageView) view.findViewById(R.id.ka50_overhead_nav_sw_10);
         mOverheadNavSelectorRight = (ImageView) view.findViewById(R.id.ka50_overhead_nav_sw_30);
-        mOverheadNavSelectorMid = (ImageView) view.findViewById(R.id.ka50_overhead_nav_sw_center);
+        mOverheadNavSelectorMid = (ImageView) view.findViewById(R.id.ka50_overhead_nav_sw_up);
         mOverheadNavSelectorDown = (ImageView) view.findViewById(R.id.ka50_overhead_nav_sw_down);
 
         mOverheadNavSelector.setOnClickListener(new View.OnClickListener() {

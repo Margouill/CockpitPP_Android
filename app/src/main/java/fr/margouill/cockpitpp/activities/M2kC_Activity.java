@@ -21,8 +21,13 @@ public class M2kC_Activity extends Module_Activity {
         setContentView(R.layout.activity_m2kc);
 
         //Load the fragments in the viewPager
-        M2kC_PagerAdapter pagerAdapter = new M2kC_PagerAdapter(getSupportFragmentManager(),new String[] { getString(R.string.m2kc_pca) + " ", getString(R.string.m2kc_ppa) + " ",getString(R.string.m2kc_ins) + " ",getString(R.string.m2kc_ins_knobs) + " "});
-        //M2kC_PagerAdapter pagerAdapter = new M2kC_PagerAdapter(getSupportFragmentManager(),new String[] { getString(R.string.m2kc_pca) + " ", getString(R.string.m2kc_ppa) + " ",getString(R.string.m2kc_ins) + " ",getString(R.string.m2kc_ins_knobs) + " ",getString(R.string.m2kc_vuhf) + " "});
+        M2kC_PagerAdapter pagerAdapter = new M2kC_PagerAdapter(getSupportFragmentManager(),new String[] {   getString(R.string.m2kc_pca) + " ",
+                                                                                                            getString(R.string.m2kc_ppa) + " ",
+                                                                                                            getString(R.string.m2kc_ins) + " ",
+                                                                                                            getString(R.string.m2kc_ins_knobs) + " ",
+                                                                                                            getString(R.string.m2kc_vuhf) + " ",
+                                                                                                        });
+
         ViewPager viewPager = (ViewPager) findViewById(R.id.viewpager);
         viewPager.setAdapter(pagerAdapter);
 

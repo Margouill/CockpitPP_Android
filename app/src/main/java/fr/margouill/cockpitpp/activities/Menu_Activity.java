@@ -60,6 +60,7 @@ public class Menu_Activity extends Activity {
         textViewVersionInfo.setText(versionDisplayed);
 
         //Bind the buttons from the screen
+        Button myPanel = (Button) findViewById(R.id.mypanel);
         Button a10c = (Button) findViewById(R.id.a10c);
         Button av8bna = (Button) findViewById(R.id.av8bna);
         Button f15c = (Button) findViewById(R.id.f15c);
@@ -87,6 +88,13 @@ public class Menu_Activity extends Activity {
         });
 
         //Set the actions on the buttons
+        myPanel.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Menu_Activity.this, MyPanel_Activity.class);
+                startActivity(intent);
+            }
+        });
         av8bna.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -294,7 +302,15 @@ public class Menu_Activity extends Activity {
 
         //Fill the Dialog
         final String version = versionName;
-        final String changelog = getString(R.string.changelog_7) + "\n" + getString(R.string.changelog_6) + "\n" + getString(R.string.changelog_5) + "\n" +  getString(R.string.changelog_4) + "\n" +  getString(R.string.changelog_3) + "\n" + getString(R.string.changelog_2) + "\n" + getString(R.string.changelog_1);
+        final String changelog = getString(R.string.changelog_8)
+                + "\n" + getString(R.string.changelog_7)
+                + "\n" + getString(R.string.changelog_6)
+                + "\n" + getString(R.string.changelog_5)
+                + "\n" + getString(R.string.changelog_4)
+                + "\n" + getString(R.string.changelog_3)
+                + "\n" + getString(R.string.changelog_2)
+                + "\n" + getString(R.string.changelog_1);
+
         AlertDialog.Builder builder;
         builder = new AlertDialog.Builder(this, android.R.style.Theme_Material_Dialog_Alert);
         builder.setTitle(getString(R.string.changelog) + " " + version)

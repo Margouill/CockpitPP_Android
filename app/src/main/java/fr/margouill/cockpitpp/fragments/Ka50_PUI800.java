@@ -187,7 +187,7 @@ public class Ka50_PUI800 extends Fragment {
 
 
         mPUI800MasterArmSelector = (Button) view.findViewById(R.id.ka50_overhead_nav_sw);
-        mPUI800MasterArmSelectorUp = (ImageView) view.findViewById(R.id.ka50_overhead_nav_sw_center);
+        mPUI800MasterArmSelectorUp = (ImageView) view.findViewById(R.id.ka50_overhead_nav_sw_up);
         mPUI800MasterArmSelectorDown = (ImageView) view.findViewById(R.id.ka50_overhead_nav_sw_down);
         mPUI800MasterArmSelector.setOnClickListener(new View.OnClickListener() {
             @Override

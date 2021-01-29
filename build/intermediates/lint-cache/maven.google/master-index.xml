@@ -133,11 +133,13 @@
   <com.android.tools.lint/>
   <com.android.tools.metalava/>
   <com.android.tools.pixelprobe/>
+  <com.android.tools.utp/>
   <com.crashlytics.sdk.android/>
   <com.google.ads.afsn/>
   <com.google.ads.interactivemedia.v3/>
   <com.google.android.ads/>
   <com.google.android.ads.consent/>
+  <com.google.android.apps.common.testing.accessibility.framework/>
   <com.google.android.datatransport/>
   <com.google.android.games/>
   <com.google.android.gms/>
@@ -156,6 +158,7 @@
   <com.google.ar/>
   <com.google.ar.sceneform/>
   <com.google.ar.sceneform.ux/>
+  <com.google.assistant.suggestion/>
   <com.google.devtools.ksp/>
   <com.google.fhir/>
   <com.google.firebase/>

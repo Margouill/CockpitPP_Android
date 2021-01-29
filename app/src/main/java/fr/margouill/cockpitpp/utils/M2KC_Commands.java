@@ -28,11 +28,11 @@ public enum M2KC_Commands {
     Br5Btn(3262, M2KC_Devices.PCA_PPA, TypeButtonCodes.Push),
 
     //M2kC_PPA
-    BombFuze(3276,M2KC_Devices.PCA_PPA, TypeButtonCodes.Simple),
-    Missile(3266,M2KC_Devices.PCA_PPA, TypeButtonCodes.Push),
-    Magic(3272,M2KC_Devices.PCA_PPA, TypeButtonCodes.Push),
-    TotPart(3279,M2KC_Devices.PCA_PPA, TypeButtonCodes.Push),
-    AutMan(3269,M2KC_Devices.PCA_PPA, TypeButtonCodes.Push),
+    BombFuze(3276, M2KC_Devices.PCA_PPA, TypeButtonCodes.Simple),
+    Missile(3266, M2KC_Devices.PCA_PPA, TypeButtonCodes.Push),
+    Magic(3272, M2KC_Devices.PCA_PPA, TypeButtonCodes.Push),
+    TotPart(3279, M2KC_Devices.PCA_PPA, TypeButtonCodes.Push),
+    AutMan(3269, M2KC_Devices.PCA_PPA, TypeButtonCodes.Push),
     MissileSelector(3265, M2KC_Devices.PCA_PPA, TypeButtonCodes.Simple),
     PPATestSwitch(3275, M2KC_Devices.PCA_PPA, TypeButtonCodes.Simple),
     PPAQuantity(3277, M2KC_Devices.PCA_PPA, TypeButtonCodes.Push),
@@ -60,6 +60,27 @@ public enum M2KC_Commands {
     InsBtnRec(3578, M2KC_Devices.PCN_NAV, TypeButtonCodes.Push),
     InsBtnVal(3580, M2KC_Devices.PCN_NAV, TypeButtonCodes.Push),
     InsBtnMrc(3582, M2KC_Devices.PCN_NAV, TypeButtonCodes.Push),
+
+    // M2kC_VUHF
+
+    VHFSelectorMode(3950, M2KC_Devices.VHF, TypeButtonCodes.Simple),
+    VHFChanMode(3951, M2KC_Devices.VHF, TypeButtonCodes.Simple),
+
+    VHFBtnMEM(3952, M2KC_Devices.VHF, TypeButtonCodes.Push),
+    VHFBtnVLD(3953, M2KC_Devices.VHF, TypeButtonCodes.Push),
+
+    VHFBtn1(3954, M2KC_Devices.VHF, TypeButtonCodes.Push),
+    VHFBtn2(3955, M2KC_Devices.VHF, TypeButtonCodes.Push),
+    VHFBtn3(3956, M2KC_Devices.VHF, TypeButtonCodes.Push),
+    VHFBtn4(3957, M2KC_Devices.VHF, TypeButtonCodes.Push),
+    VHFBtn5(3958, M2KC_Devices.VHF, TypeButtonCodes.Push),
+    VHFBtn6(3959, M2KC_Devices.VHF, TypeButtonCodes.Push),
+    VHFBtn7(3960, M2KC_Devices.VHF, TypeButtonCodes.Push),
+    VHFBtn8(3961, M2KC_Devices.VHF, TypeButtonCodes.Push),
+    VHFBtn9(3962, M2KC_Devices.VHF, TypeButtonCodes.Push),
+    VHFBtn0(3963, M2KC_Devices.VHF, TypeButtonCodes.Push),
+
+    VHFBtnCONF(3964, M2KC_Devices.VHF, TypeButtonCodes.Push),
 
     //M2kC_INS_knob
     InsKnobLeft(3627, M2KC_Devices.PCN_NAV, TypeButtonCodes.Simple),

@@ -25,6 +25,19 @@
             android:orientation="vertical">
 
             <Button
+                android:id="@+id/mypanel"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:background="@drawable/button_menu"
+                android:fontFamily="@font/ttf_hemi_head_bd_it"
+                android:gravity="start|center_vertical"
+                android:padding="6dp"
+                android:scaleType="fitCenter"
+                android:text="@string/menu_mypanel"
+                android:textColor="@color/menuButtonTextColor"
+                android:textSize="20sp" />
+
+            <Button
                 android:id="@+id/a10c"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

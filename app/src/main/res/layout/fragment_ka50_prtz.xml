@@ -8,7 +8,7 @@
 
     <ImageView
         android:id="@+id/layout"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:adjustViewBounds="true"
@@ -27,116 +27,127 @@
             android:id="@+id/view67"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="0.1" />
+            android:layout_weight="0.35" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="0.85"
+            android:layout_weight="0.7"
             android:orientation="horizontal"
             tools:weightSum="5.05">
 
             <View
+                android:id="@+id/view119"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="0.51" />
+                android:layout_weight="0.78" />
 
             <RelativeLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1">
+                android:layout_weight="0.61">
 
                 <Button
                     android:id="@+id/ka50_prtz_vehicle_bt"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:background="@null"
+                    android:background="@drawable/button_menu"
                     android:visibility="visible" />
 
                 <ImageView
                     android:id="@+id/ka50_prtz_vehicle_on"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:src="@drawable/ka50_prtz_vehicles_onp"
+                    android:background="@drawable/ka50_prtz_bleu"
                     android:visibility="visible" />
 
             </RelativeLayout>
 
+            <View
+                android:id="@+id/view118"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.43" />
+
             <RelativeLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1">
+                android:layout_weight="0.615">
 
                 <Button
                     android:id="@+id/ka50_prtz_sam_bt"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:background="@null"
+                    android:background="@drawable/button_menu"
                     android:visibility="visible" />
 
                 <ImageView
                     android:id="@+id/ka50_prtz_sam_on"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:src="@drawable/ka50_prtz_sam_onp"
-                    android:visibility="visible" />
+                    android:background="@drawable/ka50_prtz_bleu"
+                    android:visibility="invisible" />
 
             </RelativeLayout>
+
+            <View
+                android:id="@+id/view117"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.21" />
 
             <RelativeLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1">
+                android:layout_weight="0.615">
 
                 <Button
                     android:id="@+id/ka50_prtz_other_bt"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:background="@null"
+                    android:background="@drawable/button_menu"
                     android:visibility="visible" />
 
                 <ImageView
                     android:id="@+id/ka50_prtz_other_on"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:src="@drawable/ka50_prtz_others_onp"
-                    android:visibility="visible" />
+                    android:background="@drawable/ka50_prtz_bleu"
+                    android:visibility="invisible" />
 
             </RelativeLayout>
+
+            <View
+                android:id="@+id/view116"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.41" />
 
             <RelativeLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1">
+                android:layout_weight="0.615">
 
                 <Button
                     android:id="@+id/ka50_prtz_point_bt"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:background="@null"
+                    android:background="@drawable/button_menu"
                     android:visibility="visible" />
 
                 <ImageView
                     android:id="@+id/ka50_prtz_point_on"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:src="@drawable/ka50_prtz_point_onp"
-                    android:visibility="visible" />
+                    android:background="@drawable/ka50_prtz_bleu"
+                    android:visibility="invisible" />
 
             </RelativeLayout>
 
             <View
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="0.54" />
+                android:layout_weight="0.77" />
 
         </LinearLayout>
 
@@ -144,12 +155,12 @@
             android:id="@+id/view66"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="0.1" />
+            android:layout_weight="0.23" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="0.85"
+            android:layout_weight="0.69"
             android:orientation="horizontal"
             tools:weightSum="5.14">
 
@@ -157,127 +168,141 @@
                 android:id="@+id/view74"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="0.03" />
+                android:layout_weight="0.675" />
 
             <RelativeLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1">
+                android:layout_weight="0.625">
 
                 <Button
                     android:id="@+id/ka50_prtz_1_bt"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:background="@null"
+                    android:background="@drawable/button_menu"
                     android:visibility="visible" />
 
                 <ImageView
                     android:id="@+id/ka50_prtz_1_on"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:src="@drawable/ka50_prtz_1_onp"
-                    android:visibility="visible" />
+                    android:background="@drawable/ka50_prtz_bleu"
+                    android:visibility="invisible" />
 
             </RelativeLayout>
+
+            <View
+                android:id="@+id/view120"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.17" />
 
             <RelativeLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1">
+                android:layout_weight="0.625">
 
                 <Button
                     android:id="@+id/ka50_prtz_2_bt"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:background="@null"
+                    android:background="@drawable/button_menu"
                     android:visibility="visible" />
 
                 <ImageView
                     android:id="@+id/ka50_prtz_2_on"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:src="@drawable/ka50_prtz_2_onp"
-                    android:visibility="visible" />
+                    android:background="@drawable/ka50_prtz_bleu"
+                    android:visibility="invisible" />
 
             </RelativeLayout>
+
+            <View
+                android:id="@+id/view121"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.17" />
 
             <RelativeLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1">
+                android:layout_weight="0.625">
 
                 <Button
                     android:id="@+id/ka50_prtz_3_bt"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:background="@null"
+                    android:background="@drawable/button_menu"
                     android:visibility="visible" />
 
                 <ImageView
                     android:id="@+id/ka50_prtz_3_on"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:src="@drawable/ka50_prtz_3_onp"
+                    android:background="@drawable/ka50_prtz_bleu"
                     android:visibility="visible" />
 
             </RelativeLayout>
 
+            <View
+                android:id="@+id/view122"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.17" />
+
             <RelativeLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="0.95">
+                android:layout_weight="0.625">
 
                 <Button
                     android:id="@+id/ka50_prtz_4_bt"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:background="@null"
+                    android:background="@drawable/button_menu"
                     android:visibility="visible" />
 
                 <ImageView
                     android:id="@+id/ka50_prtz_4_on"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:src="@drawable/ka50_prtz_4_onp"
-                    android:visibility="visible" />
+                    android:background="@drawable/ka50_prtz_bleu"
+                    android:visibility="invisible" />
 
             </RelativeLayout>
+
+            <View
+                android:id="@+id/view123"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.165" />
 
             <RelativeLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1.07">
+                android:layout_weight="0.625">
 
                 <Button
                     android:id="@+id/ka50_prtz_all_bt"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:background="@null"
+                    android:background="@drawable/button_menu"
                     android:visibility="visible" />
 
                 <ImageView
                     android:id="@+id/ka50_prtz_all_on"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:src="@drawable/ka50_prtz_to_all_onp"
-                    android:visibility="visible" />
+                    android:background="@drawable/ka50_prtz_bleu"
+                    android:visibility="invisible" />
 
             </RelativeLayout>
 
             <View
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="0.05" />
+                android:layout_weight="0.67" />
 
         </LinearLayout>
 
@@ -285,110 +310,120 @@
             android:id="@+id/view68"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="0.1" />
+            android:layout_weight="0.22" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="0.85"
+            android:layout_weight="0.68"
             android:orientation="horizontal"
             tools:weightSum="5.04">
 
             <View
                 android:id="@+id/view64"
                 android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="0.5" />
+                android:layout_height="match_parent"
+                android:layout_weight="0.775" />
 
             <RelativeLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1">
+                android:layout_weight="0.615">
 
                 <Button
                     android:id="@+id/ka50_prtz_empty_bt"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:background="@null"
+                    android:background="@drawable/button_menu"
                     android:visibility="visible" />
 
                 <ImageView
                     android:id="@+id/ka50_prtz_empty_on"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:src="@drawable/ka50_prtz_empty_onp"
-                    android:visibility="visible" />
+                    android:background="@drawable/ka50_prtz_bleu"
+                    android:visibility="invisible" />
 
             </RelativeLayout>
+
+            <View
+                android:id="@+id/view124"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.425" />
 
             <RelativeLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1">
+                android:layout_weight="0.615">
 
                 <Button
                     android:id="@+id/ka50_prtz_clear_bt"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:background="@null"
+                    android:background="@drawable/button_menu"
                     android:visibility="visible" />
 
                 <ImageView
                     android:id="@+id/ka50_prtz_clear_on"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:src="@drawable/ka50_prtz_clear_onp"
-                    android:visibility="visible" />
+                    android:background="@drawable/ka50_prtz_jaune"
+                    android:visibility="invisible" />
 
             </RelativeLayout>
+
+            <View
+                android:id="@+id/view125"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.21" />
 
             <RelativeLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1">
+                android:layout_weight="0.615">
 
                 <Button
                     android:id="@+id/ka50_prtz_ingress_bt"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:background="@null"
+                    android:background="@drawable/button_menu"
                     android:visibility="visible" />
 
                 <ImageView
                     android:id="@+id/ka50_prtz_ingress_on"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:src="@drawable/ka50_prtz_ingress_onp"
+                    android:background="@drawable/ka50_prtz_jaune"
                     android:visibility="visible" />
 
             </RelativeLayout>
 
+            <View
+                android:id="@+id/view126"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.41" />
+
             <RelativeLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1">
+                android:layout_weight="0.610">
 
                 <Button
                     android:id="@+id/ka50_prtz_send_bt"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:background="@null"
+                    android:background="@drawable/button_menu"
                     android:visibility="visible" />
 
                 <ImageView
                     android:id="@+id/ka50_prtz_send_on"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_weight="1"
-                    android:src="@drawable/ka50_prtz_send_mem_onp"
-                    android:visibility="visible" />
+                    android:background="@drawable/ka50_prtz_jaune"
+                    android:visibility="invisible" />
 
             </RelativeLayout>
 
@@ -396,7 +431,7 @@
                 android:id="@+id/view65"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_weight="0.53" />
+                android:layout_weight="0.77" />
 
         </LinearLayout>
 
@@ -404,7 +439,7 @@
             android:id="@+id/view69"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="0.15" />
+            android:layout_weight="0.13" />
 
     </LinearLayout>
 

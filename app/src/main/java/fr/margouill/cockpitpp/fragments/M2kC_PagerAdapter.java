@@ -34,9 +34,9 @@ public class M2kC_PagerAdapter extends FragmentPagerAdapter {
             case 3:
                 fragment = new M2kC_INS_Knob();
                 break;
-            //case 4:
-               // fragment = new M2kC_VUHF();
-               // break;
+            case 4:
+                fragment = new M2kC_VUHF();
+                break;
             default:
                 fragment = new M2kC_PCA();
 

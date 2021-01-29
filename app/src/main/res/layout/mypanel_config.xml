@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/dialog_bkg"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="@font/ttf_hemi_head_bd_it"
+        android:gravity="center"
+        android:text="Parametrer le bouton"
+        android:textColor="@color/menuTextColor"
+        android:textSize="20sp"
+        tools:ignore="MissingPrefix" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="12dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Code :"
+                android:textAlignment="textEnd" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Device :"
+                android:textAlignment="textEnd" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Type :"
+                android:textAlignment="textEnd" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:text="Value :"
+                android:textAlignment="textEnd" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/code"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:ems="8"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/device"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:ems="8"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/type"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:ems="8"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/value"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:ems="8"
+                android:inputType="number" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bt_valider"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Valider"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+</LinearLayout>

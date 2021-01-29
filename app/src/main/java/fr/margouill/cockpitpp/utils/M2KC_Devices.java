@@ -24,7 +24,7 @@ public enum M2KC_Devices {
     SYSLIGHTS(16),
     AFCS(17),
     ELECTRIC(18),
-    UVHF(19),
+    VHF(19),
     UHF(20),
     INTERCOM(21),
     MISCPANELS(22),

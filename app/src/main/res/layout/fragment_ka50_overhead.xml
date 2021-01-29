@@ -8,7 +8,7 @@
 
     <ImageView
         android:id="@+id/layout"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:adjustViewBounds="true"
@@ -62,7 +62,7 @@
                         android:layout_weight="1.5">
 
                         <ImageButton
-                            android:id="@+id/ka50_overhead_nav_sw_center"
+                            android:id="@+id/ka50_overhead_nav_sw_up"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:background="@drawable/ka50_yellow_btn_center"
@@ -100,7 +100,7 @@
                             android:id="@+id/ka50_overhead_nav_sw"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:background="@null" />
+                            android:background="@drawable/circle_button_discret" />
 
                     </RelativeLayout>
 
@@ -154,7 +154,7 @@
                             android:id="@+id/ka50_overhead_wiper_sw"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:background="@null" />
+                            android:background="@drawable/circle_button_discret" />
 
                     </RelativeLayout>
 
@@ -191,7 +191,7 @@
                             android:id="@+id/ka50_overhead_pitotstatic_sw"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:background="@null" />
+                            android:background="@drawable/circle_button_discret" />
 
                     </RelativeLayout>
 
@@ -228,7 +228,7 @@
                             android:id="@+id/ka50_overhead_pitotram_sw"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:background="@null" />
+                            android:background="@drawable/circle_button_discret" />
 
                     </RelativeLayout>
 
@@ -265,7 +265,7 @@
                             android:id="@+id/ka50_overhead_rotor_sw"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:background="@null" />
+                            android:background="@drawable/circle_button_discret" />
 
                     </RelativeLayout>
 
@@ -311,7 +311,7 @@
                             android:id="@+id/ka50_overhead_eng_sw"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:background="@null" />
+                            android:background="@drawable/circle_button_discret" />
 
                     </RelativeLayout>
 

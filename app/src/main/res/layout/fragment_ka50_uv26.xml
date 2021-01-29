@@ -9,7 +9,7 @@
     <ImageView
         android:id="@+id/layout"
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:adjustViewBounds="true"
         android:contentDescription="@null"
@@ -20,21 +20,18 @@
         android:id="@+id/container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_gravity="center_vertical"
-        android:gravity="center"
         android:orientation="vertical"
         android:weightSum="2">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="0.84"
+            android:layout_weight="0.75"
             android:orientation="horizontal">
 
             <LinearLayout
-                android:layout_width="0dp"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="3.38"
                 android:orientation="vertical"
                 tools:weightSum="4">
 
@@ -42,7 +39,7 @@
                     android:id="@+id/view59"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
-                    android:layout_weight="0.6" />
+                    android:layout_weight="0.7" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -61,18 +58,22 @@
                         android:id="@+id/ka50_uv26_led_left"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="0.9"
-                        android:src="@drawable/ka50_red_led_on" />
+                        android:layout_weight="0.8"
+                        android:src="@drawable/ka50_red_led_on"
+                        android:visibility="invisible" />
 
                     <TextView
                         android:id="@+id/ka50_uv26_tv"
-                        android:fontFamily="@font/ttf_digital_display_tfb"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_weight="4.3"
-                        android:gravity="center_horizontal|top"
 
-                        android:text="888"
+                        android:layout_marginTop="-15dp"
+                        android:layout_weight="4.2"
+                        android:fontFamily="@font/ttf_digital_display_tfb"
+                        android:gravity="center"
+                        android:padding="0dp"
+                        android:text="66"
+                        android:textAlignment="gravity"
                         android:textColor="@color/m2kCRed"
                         android:textSize="100sp" />
 
@@ -80,14 +81,15 @@
                         android:id="@+id/ka50_uv26_led_right"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
-                        android:layout_weight="0.9"
-                        android:src="@drawable/ka50_red_led_on" />
+                        android:layout_weight="0.8"
+                        android:src="@drawable/ka50_red_led_on"
+                        android:visibility="invisible" />
 
                     <View
                         android:id="@+id/view51"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_weight="0.9" />
+                        android:layout_weight="1.2" />
                 </LinearLayout>
 
 
@@ -95,12 +97,12 @@
                     android:id="@+id/view60"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
-                    android:layout_weight="1" />
+                    android:layout_weight="1.1" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
-                    android:layout_weight="1"
+                    android:layout_weight="0.65"
                     android:orientation="horizontal"
                     tools:weightSum="4">
 
@@ -108,35 +110,35 @@
                         android:id="@+id/view62"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_weight="0.3" />
+                        android:layout_weight="0.42" />
 
                     <RelativeLayout
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_weight="1.4">
+                        android:layout_weight="1">
 
                         <ImageButton
                             android:id="@+id/ka50_uv26_side_left"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:background="@drawable/ka50_btn_left"
+                            android:background="@drawable/ka50_uv26_btn_left"
                             android:scaleType="fitXY"
-                            android:visibility="invisible" />
+                            android:visibility="visible" />
 
                         <ImageButton
                             android:id="@+id/ka50_uv26_side_center"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:background="@drawable/ka50_btn_center"
+                            android:background="@drawable/ka50_uv26_btn_center"
                             android:contentDescription="@null"
-                            android:visibility="visible"
+                            android:visibility="invisible"
                             tools:scaleType="fitXY" />
 
                         <ImageButton
                             android:id="@+id/ka50_uv26_side_right"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:background="@drawable/ka50_btn_right"
+                            android:background="@drawable/ka50_uv26_btn_right"
                             android:contentDescription="@null"
                             android:visibility="invisible"
                             tools:scaleType="fitXY" />
@@ -145,25 +147,25 @@
                             android:id="@+id/ka50_uv26_side_bt"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:background="@null" />
+                            android:background="@drawable/circle_button_discret" />
                     </RelativeLayout>
 
                     <View
                         android:id="@+id/view63"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_weight="0.65" />
+                        android:layout_weight="1.05" />
 
                     <RelativeLayout
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_weight="1.4">
+                        android:layout_weight="1">
 
                         <ImageButton
                             android:id="@+id/ka50_uv26_quant_left"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:background="@drawable/ka50_btn_left"
+                            android:background="@drawable/ka50_uv26_btn_left"
                             android:scaleType="fitXY"
                             android:visibility="visible" />
 
@@ -171,7 +173,7 @@
                             android:id="@+id/ka50_uv26_quant_right"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:background="@drawable/ka50_btn_right"
+                            android:background="@drawable/ka50_uv26_btn_right"
                             android:contentDescription="@null"
                             android:visibility="invisible"
                             tools:scaleType="fitXY" />
@@ -180,14 +182,14 @@
                             android:id="@+id/ka50_uv26_quant_bt"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:background="@null" />
+                            android:background="@drawable/circle_button_discret" />
                     </RelativeLayout>
 
                     <View
                         android:id="@+id/view73"
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
-                        android:layout_weight="0.25" />
+                        android:layout_weight="0.53" />
 
                 </LinearLayout>
 
@@ -195,7 +197,7 @@
                     android:id="@+id/view61"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
-                    android:layout_weight="0.27" />
+                    android:layout_weight="0.45" />
             </LinearLayout>
 
         </LinearLayout>
@@ -203,7 +205,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1.16"
+            android:layout_weight="0.975"
             android:orientation="horizontal"
             android:weightSum="5">
 
@@ -211,12 +213,12 @@
                 android:id="@+id/view72"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="0.9" />
+                android:layout_weight="0.7" />
 
             <LinearLayout
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="1.4"
+                android:layout_weight="1.45"
                 android:orientation="vertical"
                 tools:weightSum="3.5">
 
@@ -224,36 +226,43 @@
                     android:id="@+id/ka50_uv26_number_bt"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
-                    android:layout_weight="0.95"
-                    android:background="@null" />
-
-                <Button
-                    android:id="@+id/ka50_uv26_sequence_bt"
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="0.90"
-
-                    android:background="@null" />
-
-                <Button
-                    android:id="@+id/ka50_uv26_stop_bt"
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="0.90"
-                    android:background="@null" />
+                    android:layout_weight="1"
+                    android:background="@drawable/button_menu" />
 
                 <View
                     android:id="@+id/view70"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
-                    android:layout_weight="0.76" />
+                    android:layout_weight="0.23" />
+
+                <Button
+                    android:id="@+id/ka50_uv26_sequence_bt"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+
+                    android:background="@drawable/button_menu" />
+
+                <View
+                    android:id="@+id/view127"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.26" />
+
+                <Button
+                    android:id="@+id/ka50_uv26_stop_bt"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_menu" />
+
             </LinearLayout>
 
             <View
                 android:id="@+id/view19"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="0.6" />
+                android:layout_weight="0.55" />
 
             <LinearLayout
                 android:layout_width="0dp"
@@ -266,36 +275,49 @@
                     android:id="@+id/ka50_uv26_interval_bt"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
-                    android:layout_weight="0.95"
-                    android:background="@null" />
-
-                <Button
-                    android:id="@+id/ka50_uv26_reset_bt"
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="0.9"
-                    android:background="@null" />
-
-                <Button
-                    android:id="@+id/ka50_uv26_start_bt"
-                    android:layout_width="match_parent"
-                    android:layout_height="0dp"
-                    android:layout_weight="0.90"
-                    android:background="@null" />
+                    android:layout_weight="1"
+                    android:background="@drawable/button_menu" />
 
                 <View
                     android:id="@+id/view71"
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
-                    android:layout_weight="0.76" />
+                    android:layout_weight="0.23" />
+
+                <Button
+                    android:id="@+id/ka50_uv26_reset_bt"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_menu" />
+
+                <View
+                    android:id="@+id/view128"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="0.26" />
+
+                <Button
+                    android:id="@+id/ka50_uv26_start_bt"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_menu" />
+
             </LinearLayout>
 
             <View
                 android:id="@+id/view49"
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
-                android:layout_weight="0.69" />
+                android:layout_weight="0.9" />
         </LinearLayout>
+
+        <View
+            android:id="@+id/view129"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.275" />
 
     </LinearLayout>
 

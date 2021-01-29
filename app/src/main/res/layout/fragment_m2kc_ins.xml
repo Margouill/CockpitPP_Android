@@ -217,10 +217,11 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:textStyle="bold"
+                        android:text="M91"
                         android:textColor="@color/m2kCGreen"
-                        android:visibility="invisible"
-                        android:text="M91"/>
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:visibility="visible" />
 
                     <TextView
                         android:id="@+id/lightM92"
@@ -228,10 +229,11 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:textStyle="bold"
+                        android:text="M92"
                         android:textColor="@color/m2kCGreen"
-                        android:visibility="invisible"
-                        android:text="M92"/>
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:visibility="visible" />
 
                     <TextView
                         android:id="@+id/lightM93"
@@ -239,10 +241,11 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:textStyle="bold"
+                        android:text="M93"
                         android:textColor="@color/m2kCGreen"
-                        android:visibility="invisible"
-                        android:text="M93"/>
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:visibility="visible" />
 
                 </LinearLayout>
 
@@ -258,10 +261,11 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:textStyle="bold"
+                        android:text="PRET"
                         android:textColor="@color/m2kCGreen"
-                        android:visibility="invisible"
-                        android:text="PRET"/>
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:visibility="visible" />
 
                     <TextView
                         android:id="@+id/lightALN"
@@ -269,10 +273,11 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:textStyle="bold"
+                        android:text="ALN"
                         android:textColor="@color/m2kCYellow"
-                        android:visibility="invisible"
-                        android:text="ALN"/>
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:visibility="visible" />
 
                     <TextView
                         android:id="@+id/lightMIP"
@@ -280,10 +285,11 @@
                         android:layout_height="match_parent"
                         android:layout_weight="0.9"
                         android:gravity="center"
-                        android:textStyle="bold"
+                        android:text="MIP"
                         android:textColor="@color/m2kCYellow"
-                        android:visibility="invisible"
-                        android:text="MIP"/>
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:visibility="visible" />
 
                     <TextView
                         android:id="@+id/lightNDEG"
@@ -291,10 +297,11 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1.2"
                         android:gravity="center"
-                        android:textStyle="bold"
+                        android:text="N.DEG"
                         android:textColor="@color/m2kCYellow"
-                        android:visibility="invisible"
-                        android:text="N.DEG"/>
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:visibility="visible" />
 
                     <TextView
                         android:id="@+id/lightSEC"
@@ -302,10 +309,11 @@
                         android:layout_height="match_parent"
                         android:layout_weight="0.9"
                         android:gravity="center"
-                        android:textStyle="bold"
+                        android:text="SEC"
                         android:textColor="@color/m2kCYellow"
-                        android:visibility="invisible"
-                        android:text="SEC"/>
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:visibility="visible" />
 
                 </LinearLayout>
 
@@ -326,10 +334,11 @@
                         android:layout_height="match_parent"
                         android:layout_weight="1"
                         android:gravity="center"
-                        android:textStyle="bold"
+                        android:text="UNI"
                         android:textColor="@color/m2kCRed"
-                        android:visibility="invisible"
-                        android:text="UNI"/>
+                        android:textSize="24sp"
+                        android:textStyle="bold"
+                        android:visibility="visible" />
 
                 </LinearLayout>
 
